@@ -1,0 +1,13 @@
+hu\unideb\inf\Main.class
+hu\unideb\inf\web\WebSubtractionService.class
+hu\unideb\inf\web\HomeController.class
+hu\unideb\inf\registration\EurekaServer.class
+hu\unideb\inf\rest\subtraction\HomeController.class
+hu\unideb\inf\rest\subtraction\SubtractionController.class
+hu\unideb\inf\rest\subtraction\SubtractionServer.class
+hu\unideb\inf\web\WebArithmeticController.class
+hu\unideb\inf\web\WebAdditionService.class
+hu\unideb\inf\rest\addition\AdditionServer.class
+hu\unideb\inf\rest\addition\AdditionController.class
+hu\unideb\inf\web\WebServer.class
+hu\unideb\inf\rest\addition\HomeController.class

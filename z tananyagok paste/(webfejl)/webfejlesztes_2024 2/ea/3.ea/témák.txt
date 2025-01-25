@@ -1,0 +1,13 @@
+Spring-Boot
+Inversion of Control
+Spring Data JPA
+jsf-spring-boot-integration-master példa
+
+
+Inversion of Control (IoC) means that objects do not create other objects on which they rely to do their work. Instead, they get the objects that they need from an outside source (for example, an xml configuration file).
+
+Dependency Injection (DI) means that this is done without the object intervention, usually by a framework component that passes constructor parameters and set properties.
+
+Inversion of control is a programming principle that inverts the flow of control in an application. In traditional procedural programming, the code that controls the execution of the program — the main function — instantiates objects, calls methods and even asks the user for input so that the execution can continue and the program can achieve its task. With IoC, it is a framework that does the instantiation, method calls and triggers user actions, having full control of the flow and removing this responsibility from the main function, and by consequence the application.
+
+Dependency Injection is a software design technique in which the creation and binding of dependencies are done outside of the dependent class. Afterwards, said dependencies are provided already instantiated and ready to be used, hence the term “injection”; in contrast to the dependent class having to instantiate its dependencies internally, and having to know how to configure them, thus causing coupling.

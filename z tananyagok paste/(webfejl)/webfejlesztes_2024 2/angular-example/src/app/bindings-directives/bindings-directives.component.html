@@ -1,0 +1,60 @@
+
+<div class="container">
+
+  <!-- Kötések - bindings - property binding & event binding -->
+  <h1>{{ title }}</h1> <!-- string interpoláció -->
+
+  <input [value]="userInput" placeholder="Tulajdonságkötés (Egyutas adatkötés)">
+
+  <input [(ngModel)]="userInput" placeholder="Két-utas adatkötés" >
+  <p>A megadott szöveg: {{ userInput }}</p>
+
+  <button (click)="toggleHighlight()">Kiemelés váltása</button> <!-- Eseménykötés -->
+
+  <!-- Direktívák -->
+
+  <!-- Strukturális direktívák -->
+  <div *ngIf="isVisible">
+    <p>Ez a szöveg látható, ha az isVisible értéke igaz.</p>
+  </div>
+  <button (click)="isVisible = !isVisible">{{ isVisible ? 'Elrejtés' : 'Megjelenítés'}}</button>
+
+  <h2>Gyümölcsök listája:</h2>
+  <ul>
+    <li *ngFor="let item of items">{{ item }}</li>
+  </ul>
+
+  <h2>Válassz gyümölcsöt</h2>
+  <select [(ngModel)]="selectedFruit">
+    <option value ="alma">Alma</option>
+    <option value ="banán">Banán</option>
+    <option value ="cseresznye">Cseresznye</option>
+  </select>
+
+  <div [ngSwitch]="selectedFruit">
+    <p *ngSwitchCase="'alma'">Kiválasztott gyümölcs: Alma</p>
+    <p *ngSwitchCase="'banán'">Kiválasztott gyümölcs: Banán</p>
+    <p *ngSwitchCase="'cseresznye'">Kiválasztott gyümölcs: Cseresznye</p>
+  </div>
+
+
+  <!-- Attribútum direktívák: [ngClass] és [ngStyle] -->
+  <p [ngClass]="{'highlighted': isHighlighted}">Ez a szöveg változik a gomb megnyomására.</p>
+  <p [ngStyle]="{'font-size.px' : fontSize}">Ez a szöveg dinamikusan változó betűméretű.</p>
+  <button (click)="fontSize = fontSize + 2">Betűméret növelése</button>
+  <button (click)="fontSize = fontSize - 2">Betűméret csökkentése</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

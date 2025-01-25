@@ -1,0 +1,4 @@
+Layered system – REST elements cannot see beyond their appointed layer. This results in improved scalability and easier addition of proxies and load balancers.
+Uniform interface – The most important feature of the REST architectural pattern is its emphasis on the uniformity of interfaces between all the components.
+Cacheability – REST servers have to identify their responses as cacheable or not so that disposing of non–cacheable information and caching required information is possible for performance improvement.
+Statelessness – In REST applications, clients maintain the application state, but servers do not manage any client state. The service requests comprise all the information needed for processing.

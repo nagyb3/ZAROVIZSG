@@ -1,0 +1,3 @@
+org\eclipse\jakarta\cafe\model\entity\Coffee.class
+org\eclipse\jakarta\cafe\rest\CafeResource.class
+org\eclipse\jakarta\cafe\model\CafeRepository.class

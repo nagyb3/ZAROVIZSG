@@ -1,0 +1,18 @@
+2022-09-26 20:47:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COFFEE" not found; SQL statement:
+DROP TABLE COFFEE [42102-200]
+2022-09-26 20:47:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COFFEE" not found; SQL statement:
+DROP TABLE COFFEE [42102-200]
+2022-09-26 20:47:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COFFEE" not found; SQL statement:
+DROP TABLE COFFEE [42102-200]
+2022-09-26 20:47:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COFFEE" not found; SQL statement:
+DROP TABLE COFFEE [42102-200]
+2022-09-26 20:47:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COFFEE" not found; SQL statement:
+DROP TABLE COFFEE [42102-200]
+2022-09-26 20:47:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COFFEE" not found; SQL statement:
+SELECT 1 FROM COFFEE [42102-200]

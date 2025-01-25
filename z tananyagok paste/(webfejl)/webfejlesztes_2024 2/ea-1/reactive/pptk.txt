@@ -1,0 +1,6 @@
+https://www.slideshare.net/slideshow/introduction-to-spring-webflux/254272008#15
+https://www.slideshare.net/slideshow/webinar-working-with-reactive-spring/149040020#17
+https://github.com/abhilash28abhi/spring-webflux-rest-api/blob/master/learning-reactive-programming-with-reactor-slides.pdf
+
+https://github.com/bezkoder/spring-boot-r2dbc-h2-example/tree/master
+https://www.bezkoder.com/spring-boot-r2dbc-h2/

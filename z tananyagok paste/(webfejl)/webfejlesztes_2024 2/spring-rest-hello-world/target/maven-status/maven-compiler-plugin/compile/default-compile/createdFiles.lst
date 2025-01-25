@@ -1,0 +1,7 @@
+hu\unideb\inf\StartBookApplication.class
+hu\unideb\inf\Book.class
+hu\unideb\inf\BookRepository.class
+hu\unideb\inf\error\BookNotFoundException.class
+hu\unideb\inf\BookController.class
+hu\unideb\inf\error\CustomGlobalExceptionHandler.class
+hu\unideb\inf\error\BookUnSupportedFieldPatchException.class

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jakartaee-cafe:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jakartaee-cafe</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jakartaee-cafe.war">
+      <element id="artifact" artifact-name="jakartaee-cafe:war exploded" />
+    </root>
+  </artifact>
+</component>
