@@ -1,0 +1,21 @@
+utasítások
+- deklarációs utasítások
+- végrehajtó utasítások
+	- értékadó: feladata beállítani egy változó érték komponensét a program futási közben
+	- üres utasítás:
+		- általában eljárásorientált nyelvekben használatások
+		- feladata: egyértelmű programszerkezetet lehet csinálni
+		- ennek hatására a cpu egy üres gépi utasítást hajt végre
+	- ugró utasítás (általános alakja: GOTO): a program egy adott pontjáról egy adott címkével ellátott végrehajtható utasításra adhatjuk át a vezérélést 
+	- elágaztató utasítás:
+		- 2 irányú : IF feltétel THEN tevékenység ( ELSE tevékenység )
+			- egy bizonyos feltételt igazságakor végrehajtunk egy meghatározott utasítás sorozatot
+		- több irányú: egymást kizáró feltételek fennállásakor az egyiknek megadott utasítás sorozatok hajtjuk végre
+			- SWITCH cAse
+	- ciklus szervező: lehetővé teszik, hogy egy bizonyos tevékenységet akárhányszor megismételjünk 
+		- felépítése: fej + mag + vég
+	- ciklusok fajtái:
+		- feltételes ciklus: az ismétlődést egy feltétel igazság tartalmához kötünk
+			- szemantika alapján van: kezdőfeltételes (while) és végfeltétel (do while)
+		- előírt lépésszámú: fejben vannak a ciklus paraméterek (ciklus leíró információk).
+			- Minden esetben tartozik hozzá egy ciklus változó
