@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a32700ee1f9381c6",
+        "id": "28f5eb0d9aa4596e",
         "type": "tabs",
         "children": [
           {
-            "id": "45e973ebbc788bf2",
+            "id": "653af4c756490c19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prog2 extra 3.md",
+                "file": "kidolgozasok/matek + számtud/2. alkstat + adatszerk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prog2 extra 3"
+              "title": "2. alkstat + adatszerk"
             }
           },
           {
-            "id": "87cfc8576d47f740",
+            "id": "32d308f80d837400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md",
+                "file": "kidolgozasok/Informatika ismeretek/7.  webtech (+ hálózat).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. prog1 prog2 (OOP)"
+              "title": "7.  webtech (+ hálózat)"
             }
           }
         ],
@@ -178,13 +178,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87cfc8576d47f740",
+  "active": "32d308f80d837400",
   "lastOpenFiles": [
+    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
+    "kidolgozasok/matek + számtud/2. alkstat + adatszerk.md",
     "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md",
-    "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md",
     "README.md.md",
-    "prog2 extra 3.md",
+    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
+    "Pasted image 20250216131720.png",
     "kidolgozasok/Informatika ismeretek/1. adatb.md",
+    "prog2 extra 3.md",
+    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+    "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md",
     "Pasted image 20250216065545.png",
     "extras/prog1 extra 1.md",
     "felveteli/felveteli README.md",
@@ -216,10 +221,6 @@
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/ea/3.ea/IoC.jpg",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/ea/2_ea/jsf1/README.md",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/ea-1/reactive/spring-boot-r2dbc-h2-example-master/spring-boot-r2dbc-h2-example-master/README.md",
-    "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/ea-1/2/jsf1/README.md",
-    "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/angular-example/README.md",
-    "kidolgozasok/matek + számtud/7. diszkmat + logika2.md",
-    "kidolgozasok/matek + számtud/5. diszkmat + mestint.md",
     "zzz pasted images/Pasted image 20241022153148.png",
     "zzz pasted images/Pasted image 20241022152003.png"
   ]
