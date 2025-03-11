@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "kidolgozasok/matek + számtud/6. adatszerk + logika2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "6. adatszerk + logika2"
             }
           }
         ],
@@ -55,8 +55,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -180,33 +179,26 @@
   },
   "active": "32d308f80d837400",
   "lastOpenFiles": [
-    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
-    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
-    "kidolgozasok/Informatika ismeretek/1. adatb.md",
+    "kidolgozasok/matek + számtud/5. diszkmat + mestint.md",
+    "README.md.md",
+    "kidolgozasok/matek + számtud/6. adatszerk + logika2.md",
     "Pasted image 20250225002037.png",
     "Pasted image 20250225002018.png",
     "Pasted image 20250225001251.png",
-    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
-    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
-    "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md",
-    "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md",
-    "kidolgozasok/matek + számtud/6. adatszerk?  + logika2.md",
-    "kidolgozasok/matek + számtud/7. diszkmat + logika2.md",
-    "kidolgozasok/matek + számtud/8 alkstat + ibiza.md",
-    "kidolgozasok/matek + számtud/5. diszkmat + mestint.md",
-    "kidolgozasok/matek + számtud/4. matviz + mestint.md",
-    "kidolgozasok/matek + számtud/3. kalkulus + logika1.md",
-    "kidolgozasok/matek + számtud/2. alkstat + adatszerk.md",
-    "kidolgozasok/matek + számtud/1. alkstat + adatszerk.md",
-    "kidolgozasok/Informatika ismeretek/7.  webtech (+ hálózat).md",
     "Pasted image 20250222121351.png",
     "Pasted image 20250222121303.png",
     "Pasted image 20250222112727.png",
     "Pasted image 20250222112717.png",
-    "z tananyagok paste/OPRENDSZER/appA.pdf",
-    "README.md.md",
+    "kidolgozasok/Informatika ismeretek/1. adatb.md",
+    "kidolgozasok/Informatika ismeretek/7.  webtech (+ hálózat).md",
+    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
+    "kidolgozasok/matek + számtud/2. alkstat + adatszerk.md",
+    "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md",
+    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "Pasted image 20250216131720.png",
     "prog2 extra 3.md",
+    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+    "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md",
     "Pasted image 20250216065545.png",
     "extras/prog1 extra 1.md",
     "felveteli/felveteli README.md",
@@ -214,6 +206,8 @@
     "extras/prog1 extra 2.md",
     "extras/extra jegyzetek.md",
     "extras",
+    "kidolgozasok/matek + számtud/6. ?  + logika2.md",
+    "kidolgozasok/matek + számtud/8 alkstat + ibiza.md",
     "z tananyagok paste/prog2/Magasszintű programozás 2_ elmélet1zh.docx",
     "z tananyagok paste/prog2/19prog2_JavaDoc.pptx",
     "z tananyagok paste/prog2/18prog2_JavaExceptions.pptx",
@@ -222,8 +216,14 @@
     "z tananyagok paste/prog2/15prog2_JavaGenerikus.pptx",
     "z tananyagok paste/prog2/14prog2_JavaInterface.pptx",
     "z tananyagok paste/prog2/13prog2_UML.pptx",
+    "z tananyagok paste/prog2/12prog2_AbstractMethodsAndClasses.pptx",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/spring-rest-hello-world/README.md",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/jsf-spring-boot-integration-master/README.md",
+    "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/jsf-spring-boot-integration-master-1/README.md",
+    "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/jsf-simple-login-with-java-ee-security-api/README.md",
+    "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/ea/spring-rest-hello-world/README.md",
+    "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/ea/5_ea/spring-rest-hello-world/README.md",
+    "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/ea/4.ea/jsf-simple-login-with-java-ee-security-api/README.md",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/ea/4.ea/jakartaee-cafe/target/jakartaee-cafe/images/jakartaee_logo.jpg"
   ]
 }
