@@ -20,7 +20,6 @@ Az u-próba
 
 # ibiza
 Az informatikai biztonság fogalma
-
 ### Legfontosabb biztonsági célok
 CIA hármas:
 - Confidentiality (Bizalmasság)
@@ -30,22 +29,24 @@ CIA hármas:
 - Assurance (biztosíték / garancia)
 
 Fizikai védelem
--> fontos
+[[ibiza_fizikai_védelem.pdf]]
 
 Kártékony programok:
-
+[[9_Kártékony programok.pdf]]
 
 osztályozásuk terjedési módjuk és büntető rutinjuk szerint.
 
 Algoritmikus védelem eszközei:
 - titkosítás
+[[titkosítások.pdf]]
 - digitális aláírás
-- hash függvények. 
+- hash függvények
 
 AES
 (Advanced Encryption Standard)
 
 ### RSA titkosítás
+[[rsa.pdf]]
 (Rivest-Shamir-Adleman)
 jellemzői:
 - TODO
