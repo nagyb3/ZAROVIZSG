@@ -7,7 +7,10 @@ eszközei: titkosítás, digitális aláírás, hash függvények. Az AES és RS
 ```
 
 # A
-Statisztikai minta és becslések
+Statisztikai minta
+![[Pasted image 20250319230957.png]]
+
+becslések
 
 átlag és szórás.
 
