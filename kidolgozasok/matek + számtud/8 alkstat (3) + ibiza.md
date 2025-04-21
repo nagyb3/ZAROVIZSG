@@ -6,7 +6,7 @@ programok, osztályozásuk terjedési módjuk és büntető rutinjuk szerint. Al
 eszközei: titkosítás, digitális aláírás, hash függvények. Az AES és RSA algoritmusok.
 ```
 
-# A
+# alkstat (3)
 Statisztikai minta
 ![[Pasted image 20250319230957.png]]
 
@@ -18,7 +18,7 @@ Konfidenciaintervallumok.
 
 Az u-próba.
 
-# B
+# ibiza
 Az informatikai biztonság fogalma
 
 Legfontosabb biztonsági célok.
@@ -32,4 +32,6 @@ Algoritmikus védelem eszközei:
 - digitális aláírás
 - hash függvények. 
 
-Az AES és RSA algoritmusok.
+AES
+
+RSA
