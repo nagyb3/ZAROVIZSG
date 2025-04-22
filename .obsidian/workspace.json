@@ -13,36 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+                "file": "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. alkstat (2) + adatszerk (2)"
+              "title": "3. kalkulus + logika"
             }
           },
           {
-            "id": "997663dd56739f07",
+            "id": "6961b01afe2bac56",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "z tananyagok paste/KALKULUS/Fuggveny_hatarertek.pdf"
+                "file": "z tananyagok paste/DISZKMAT/ea_10.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Fuggveny_hatarertek"
-            }
-          },
-          {
-            "id": "f7d803fb3b455bf9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "z tananyagok paste/MESTINT/MI04a - Informált keresések.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "MI04a - Informált keresések"
+              "title": "ea_10"
             }
           }
         ]
@@ -190,30 +178,30 @@
   "active": "ab7eb775ba4e711d",
   "lastOpenFiles": [
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "z tananyagok paste/DISZKMAT/ea_10.pdf",
+    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "z tananyagok paste/alkstat/10 - StatSample10.pdf",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "z tananyagok paste/alkstat/9 - JointDistr9.pdf",
+    "z tananyagok paste/alkstat/8 - NormDistr8.pdf",
+    "z tananyagok paste/alkstat/7- ExpVar7.pdf",
+    "z tananyagok paste/alkstat/6- RandVar6.pdf",
+    "z tananyagok paste/alkstat/5 - JointDistr5.pdf",
+    "z tananyagok paste/alkstat/4 - DiscRandVar4.pdf",
+    "z tananyagok paste/alkstat/3 - Kolmogorov3.pdf",
+    "z tananyagok paste/alkstat/2- probability.pdf",
     "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/Informatika ismeretek/1. adatb.md",
-    "z tananyagok paste/MESTINT/MI04a - Informált keresések.pdf",
-    "z tananyagok paste/KALKULUS/Fuggveny_hatarertek.pdf",
-    "z tananyagok paste/KALKULUS/Fuggveny_hatarertek_eloadasjegyzet.pdf",
-    "z tananyagok paste/KALKULUS/Differencialszamitas.pdf",
-    "z tananyagok paste/MESTINT/MI06 - Kétszemélyes játékok.pdf",
-    "z tananyagok paste/MESTINT/combined_RL.pdf",
-    "z tananyagok paste/MESTINT/MI02.pdf",
-    "z tananyagok paste/MESTINT/MI01.pdf",
-    "z tananyagok paste/MESTINT/MI03.pdf",
-    "z tananyagok paste/MESTINT/MI05.pdf",
     "Pasted image 20250421222613.png",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
     "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
-    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
     "kidolgozasok/Informatika ismeretek/2. prog1.md",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "Pasted image 20250421183236.png",
