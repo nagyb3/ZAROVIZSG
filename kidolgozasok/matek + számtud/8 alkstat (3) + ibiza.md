@@ -7,6 +7,7 @@ eszközei: titkosítás, digitális aláírás, hash függvények. Az AES és RS
 ```
 
 # alkstat (3)
+[[10 - StatSample10.pdf]]
 Statisztikai minta
 ![[Pasted image 20250319230957.png]]
 

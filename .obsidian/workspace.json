@@ -8,35 +8,44 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab7eb775ba4e711d",
+            "id": "bacca1d20176c2c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+                "file": "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. alkstat (1) + adatszerk (1)"
+              "title": "5. diszkmat (1) + mestint (2)"
             }
           },
           {
-            "id": "6961b01afe2bac56",
+            "id": "64771d417efb20a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-                "mode": "source",
-                "source": false
+                "file": "z tananyagok paste/DISZKMAT/ea_10.pdf"
               },
-              "icon": "lucide-file",
-              "title": "1. alkstat (1) + adatszerk (1)"
+              "icon": "lucide-file-text",
+              "title": "ea_10"
+            }
+          },
+          {
+            "id": "b0afedd78731ff8b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "z tananyagok paste/DISZKMAT/ea_11.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ea_11"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 366.5
   },
   "right": {
     "id": "f9353f01ba49ceb0",
@@ -178,18 +187,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6961b01afe2bac56",
+  "active": "bacca1d20176c2c3",
   "lastOpenFiles": [
-    "Pasted image 20250422195539.png",
+    "z tananyagok paste/DISZKMAT/ea_11.pdf",
     "z tananyagok paste/DISZKMAT/ea_10.pdf",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "kidolgozasok/Informatika ismeretek/3. OOP.md",
-    "kidolgozasok/Informatika ismeretek/2. prog1.md",
-    "kidolgozasok/Informatika ismeretek/1. adatb.md",
-    "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "Pasted image 20250423141707.png",
+    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
+    "z tananyagok paste/MESTINT/MI04a - Informált keresések.pdf",
+    "z tananyagok paste/MESTINT/MI03.pdf",
+    "z tananyagok paste/MESTINT/MI02.pdf",
+    "z tananyagok paste/MESTINT/MI01.pdf",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
+    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "kidolgozasok/Informatika ismeretek/1. adatb.md",
+    "kidolgozasok/Informatika ismeretek/2. prog1.md",
+    "kidolgozasok/Informatika ismeretek/3. OOP.md",
+    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
+    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
+    "kidolgozasok/Informatika ismeretek/7.  webtech.md",
+    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
+    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "z tananyagok paste/fonya/eloadas07-2023-web.pdf",
+    "z tananyagok paste/fonya/eloadas10-2023.pdf",
+    "z tananyagok paste/fonya/eloadas09-2022.pdf",
+    "z tananyagok paste/fonya/eloadas08-2023-web.pdf",
+    "z tananyagok paste/fonya/eloadas06-2023.pdf",
+    "README.md.md",
+    "Pasted image 20250422195539.png",
     "Pasted image 20250422195044.png",
     "Pasted image 20250422194537.png",
     "Pasted image 20250422194502.png",
@@ -198,27 +227,7 @@
     "Pasted image 20250422194232.png",
     "Pasted image 20250422194223.png",
     "Pasted image 20250422193920.png",
-    "Pasted image 20250422193828.png",
-    "Pasted image 20250422193653.png",
-    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "z tananyagok paste/alkstat/10 - StatSample10.pdf",
-    "z tananyagok paste/alkstat/9 - JointDistr9.pdf",
-    "z tananyagok paste/alkstat/8 - NormDistr8.pdf",
-    "z tananyagok paste/alkstat/7- ExpVar7.pdf",
-    "z tananyagok paste/alkstat/6- RandVar6.pdf",
-    "z tananyagok paste/alkstat/5 - JointDistr5.pdf",
-    "z tananyagok paste/alkstat/4 - DiscRandVar4.pdf",
-    "z tananyagok paste/alkstat/3 - Kolmogorov3.pdf",
-    "z tananyagok paste/alkstat/2- probability.pdf",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
-    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
-    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
-    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
-    "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "Untitled.md",
-    "README.md.md",
     "prog2 extra 3.md",
     "extras/prog1 extra 1.md",
     "felveteli/felveteli README.md",
