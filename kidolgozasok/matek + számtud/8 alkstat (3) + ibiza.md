@@ -19,6 +19,7 @@ Konfidenciaintervallumok.
 
 Az u-próba
 
+-----------
 # ibiza
 Az informatikai biztonság fogalma
 ### Legfontosabb biztonsági célok
