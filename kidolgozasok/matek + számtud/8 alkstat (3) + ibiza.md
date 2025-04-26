@@ -17,7 +17,17 @@ eszközei: titkosítás, digitális aláírás, hash függvények. Az AES és RS
 - konzisztens becslés
 - maximum likelihood becslés
 
-### Átlag és szórás.
+### Átlag
+(átlag - empirikus közép)
+[[10 - StatSample10.pdf]] 27. oldal
+
+### Szórás
+Fazekas I: 33. oldal
+variancia === szórásnégyzet
+
+- empirikus szórásnégyzet (variancia)
+[[10 - StatSample10.pdf]] 29. oldal
+- steiner formula
 
 ### Konfidenciaintervallumok.
 Fazekas I: 119. oldal
