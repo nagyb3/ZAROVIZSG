@@ -8,16 +8,22 @@ eszközei: titkosítás, digitális aláírás, hash függvények. Az AES és RS
 
 # alkstat (3)
 [[10 - StatSample10.pdf]]
-Statisztikai minta
+### Statisztikai minta
 ![[Pasted image 20250319230957.png]]
 
-becslések
+### Becslések
+(Fazekas I 117. oldal)
+- torzítatlan becslés
+- konzisztens becslés
+- maximum likelihood becslés
 
-átlag és szórás.
+### Átlag és szórás.
 
-Konfidenciaintervallumok.
+### Konfidenciaintervallumok.
+Fazekas I: 119. oldal
 
-Az u-próba
+### Az u-próba
+Fazekas I: 120. oldal
 
 -----------
 # ibiza
