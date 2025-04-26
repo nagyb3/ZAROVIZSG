@@ -11,28 +11,24 @@
             "id": "bacca1d20176c2c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-                "mode": "source",
-                "source": false
+                "file": "z tananyagok paste/IBIZA/ibiza_dos_tuzfal.pdf"
               },
-              "icon": "lucide-file",
-              "title": "8 alkstat (3) + ibiza"
+              "icon": "lucide-file-text",
+              "title": "ibiza_dos_tuzfal"
             }
           },
           {
-            "id": "26d463fbb981a3a4",
+            "id": "24080621be774ae8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "kidolgozasok/Informatika ismeretek/8. hálózat.md",
-                "mode": "source",
-                "source": false
+                "file": "z tananyagok paste/IBIZA/9_Kártékony programok.pdf"
               },
-              "icon": "lucide-file",
-              "title": "8. hálózat"
+              "icon": "lucide-file-text",
+              "title": "9_Kártékony programok"
             }
           }
         ],
@@ -178,34 +174,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66c98d14c1cba2b8",
+  "active": "24080621be774ae8",
   "lastOpenFiles": [
-    "hap_GZ_2017_2018_2.pdf",
+    "z tananyagok paste/IBIZA/ibiza_dos_tuzfal.pdf",
+    "z tananyagok paste/IBIZA/ibiza_fizikai_védelem.pdf",
+    "z tananyagok paste/IBIZA/ibiza_hash_aláírás.pdf",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "z tananyagok paste/IBIZA/9_Kártékony programok.pdf",
+    "z tananyagok paste/IBIZA/alapfogalmak.pdf",
+    "z tananyagok paste/IBIZA/biztonsági_modell.pdf",
+    "z tananyagok paste/IBIZA/ibiza_hitelesítés.pdf",
+    "z tananyagok paste/IBIZA/ibiza_PKI.pdf",
+    "z tananyagok paste/IBIZA/rsa.pdf",
+    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
+    "z tananyagok paste/IBIZA/ibiza_ügyviteli_védelem.pdf",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
-    "z tananyagok paste/LOGIKA/eloadas11-2022.pdf",
-    "z tananyagok paste/LOGIKA/eloadas10-2022.pdf",
-    "z tananyagok paste/LOGIKA/eloadas09-2022.pdf",
     "Pasted image 20250426204323.png",
-    "z tananyagok paste/LOGIKA/eloadas08-2022.pdf",
-    "z tananyagok paste/LOGIKA/gyak07-2022 (1).pdf",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
     "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
     "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-    "z tananyagok paste/LOGIKA/eloadas07-Logika8-Aszalos-2022.pdf",
-    "z tananyagok paste/LOGIKA/eloadas02-2022-vege-nelkul-javitott.pdf",
-    "z tananyagok paste/LOGIKA/eloadas01-2022.pdf",
-    "z tananyagok paste/DISZKMAT/ea_06.pdf",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
-    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
     "kidolgozasok/Informatika ismeretek/1. adatb.md",
-    "z tananyagok paste/OPRENDSZER/ch4.pdf",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "kidolgozasok/Informatika ismeretek/2. prog1.md",
     "Pasted image 20250426091927.png",

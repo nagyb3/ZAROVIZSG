@@ -38,8 +38,10 @@ Fazekas I: 120. oldal
 
 -----------
 # ibiza
-Az informatikai biztonság fogalma
+### Az informatikai biztonság fogalma
+[[alapfogalmak.pdf]] 6. oldal
 ### Legfontosabb biztonsági célok
+[[alapfogalmak.pdf]] 8. oldal
 CIA hármas:
 - Confidentiality (Bizalmasság)
 - Integrity (sértetlenség)
@@ -47,21 +49,23 @@ CIA hármas:
 - Accountability (nyomonkövethetőség)
 - Assurance (biztosíték / garancia)
 
-Fizikai védelem
+### Fizikai védelem
 [[ibiza_fizikai_védelem.pdf]]
 
-Kártékony programok:
+### Kártékony programok:
 [[9_Kártékony programok.pdf]]
 
-osztályozásuk terjedési módjuk és büntető rutinjuk szerint.
+### Osztályozásuk terjedési módjuk és büntető rutinjuk szerint.
 
-Algoritmikus védelem eszközei:
+### Algoritmikus védelem eszközei:
 - titkosítás
 [[titkosítások.pdf]]
 - digitális aláírás
+[[ibiza_hash_aláírás.pdf]]
 - hash függvények
+[[ibiza_hash_aláírás.pdf]]
 
-AES
+### AES titkosítás
 (Advanced Encryption Standard)
 
 ### RSA titkosítás
