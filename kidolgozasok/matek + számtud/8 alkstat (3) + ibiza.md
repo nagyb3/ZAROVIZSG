@@ -28,6 +28,7 @@ variancia === szórásnégyzet
 - empirikus szórásnégyzet (variancia)
 [[10 - StatSample10.pdf]] 29. oldal
 - steiner formula
+- korrigált empirikus variancia
 
 ### Konfidenciaintervallumok.
 Fazekas I: 119. oldal
