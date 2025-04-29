@@ -8,53 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bacca1d20176c2c3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "z tananyagok paste/IBIZA/ibiza_dos_tuzfal.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ibiza_dos_tuzfal"
-            }
-          },
-          {
-            "id": "24080621be774ae8",
+            "id": "d54625b6f20ee7cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+                "file": "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. diszkmat (1) + mestint (2)"
+              "title": "2. alkstat (2) + adatszerk (2)"
             }
           },
           {
-            "id": "2eb6609092e81b84",
+            "id": "918d48891a526625",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "z tananyagok paste/DISZKMAT/ea_06.pdf"
+                "file": "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ea_06"
-            }
-          },
-          {
-            "id": "a17cd860f5e13f7b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "z tananyagok paste/alkstat/2- probability.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2- probability"
+              "icon": "lucide-file",
+              "title": "1. alkstat (1) + adatszerk (1)"
             }
           }
         ],
@@ -200,46 +178,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24080621be774ae8",
+  "active": "918d48891a526625",
   "lastOpenFiles": [
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
-    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
     "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "kidolgozasok/Informatika ismeretek/2. prog1.md",
-    "kidolgozasok/Informatika ismeretek/3. OOP.md",
-    "kidolgozasok/Informatika ismeretek/7.  webtech.md",
+    "z tananyagok paste/alkstat/3 - Kolmogorov3.pdf",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+    "z tananyagok paste/alkstat/Fazekas István - Alkalmazott Statisztika.pdf",
+    "z tananyagok paste/alkstat/12 - NonParam12.pdf",
+    "z tananyagok paste/alkstat/13 - regression13-.pdf",
+    "z tananyagok paste/ALKMAT/09_sajatertekGYAK.pdf",
+    "README.md.md",
+    "z tananyagok paste/alkstat/2- probability.pdf",
+    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
+    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
+    "z tananyagok paste/ALKMAT/06_LKNGYAK.pdf",
+    "z tananyagok paste/ALKMAT/04_LERGYAK.pdf",
+    "z tananyagok paste/ALKMAT/01_lebegoGYAK.pdf",
+    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
+    "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "z tananyagok paste/DISZKMAT/ea_06.pdf",
-    "z tananyagok paste/alkstat/2- probability.pdf",
-    "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
-    "z tananyagok paste/OPRENDSZER/ch6.pdf",
-    "z tananyagok paste/DISZKMAT/ea_09.pdf",
-    "z tananyagok paste/IBIZA/ibiza_dos_tuzfal.pdf",
-    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "z tananyagok paste/fonya/eloadas07-2023-web.pdf",
     "kidolgozasok/Informatika ismeretek/1. adatb.md",
-    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
-    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
-    "z tananyagok paste/IBIZA/biztonsági_modell.pdf",
-    "z tananyagok paste/IBIZA/9_Kártékony programok.pdf",
-    "z tananyagok paste/IBIZA/ibiza_fizikai_védelem.pdf",
-    "z tananyagok paste/IBIZA/ibiza_hash_aláírás.pdf",
-    "z tananyagok paste/IBIZA/alapfogalmak.pdf",
+    "kidolgozasok/Informatika ismeretek/2. prog1.md",
+    "kidolgozasok/Informatika ismeretek/3. OOP.md",
+    "Pasted image 20250428182335.png",
+    "Pasted image 20250428182306.png",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "Pasted image 20250427191950.png",
+    "Untitled.md",
+    "Pasted image 20250427135612.png",
+    "Pasted image 20250427111034.png",
+    "Pasted image 20250427111015.png",
+    "Pasted image 20250427095749.png",
     "Pasted image 20250426204323.png",
     "Pasted image 20250426091927.png",
     "Pasted image 20250426090630.png",
-    "Pasted image 20250426090453.png",
-    "Pasted image 20250426090339.png",
-    "Pasted image 20250426090324.png",
-    "Pasted image 20250423195104.png",
-    "Pasted image 20250423194830.png",
-    "Pasted image 20250423194818.png",
-    "Pasted image 20250423194751.png",
-    "README.md.md",
-    "Untitled.md",
     "prog2 extra 3.md",
     "extras/prog1 extra 1.md",
     "felveteli/felveteli README.md",
