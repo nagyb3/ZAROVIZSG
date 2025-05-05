@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f01ea122306b7def",
+        "id": "615b6016ca703239",
         "type": "tabs",
         "children": [
           {
-            "id": "a3667971f30bcd2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. op rendszerek"
-            }
-          },
-          {
-            "id": "0234691a43f9ae24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kidolgozasok/Informatika ismeretek/2. prog1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. prog1"
-            }
-          },
-          {
-            "id": "79b2b3930c670a6d",
+            "id": "121783bc43164012",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +21,7 @@
               "title": "2. prog1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,30 +163,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0234691a43f9ae24",
+  "active": "121783bc43164012",
   "lastOpenFiles": [
+    "z tananyagok paste/prog1/prog1_vizsgafelk-2/prog1_jegyzet[1].pdf",
+    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+    "z tananyagok paste/Operating System Concepts and Essentials (2nd Edition) - Operációs Rendszerek.pdf",
+    "Pasted image 20250504155400.png",
+    "Pasted image 20250504154947.png",
+    "Pasted image 20250504154627.png",
+    "Pasted image 20250504154625.png",
     "Pasted image 20250501200206.png",
     "Pasted image 20250501200054.png",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
-    "z tananyagok paste/alkstat/2- probability.pdf",
-    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+    "README.md.md",
+    "kidolgozasok/Informatika ismeretek/2. prog1.md",
+    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
+    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
+    "kidolgozasok/Informatika ismeretek/3. OOP.md",
+    "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
+    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
+    "kidolgozasok/Informatika ismeretek/1. adatb.md",
     "kidolgozasok/Informatika ismeretek/8. hálózat.md",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
-    "z tananyagok paste/alkstat/3 - Kolmogorov3.pdf",
-    "kidolgozasok/Informatika ismeretek/3. OOP.md",
-    "README.md.md",
     "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
-    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
-    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
-    "kidolgozasok/Informatika ismeretek/2. prog1.md",
-    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
-    "z tananyagok paste/MESTINT/MI06 - Kétszemélyes játékok.pdf",
     "z tananyagok paste/hap_GZ_2017_2018_2.pdf",
+    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "z tananyagok paste/MESTINT/MI06 - Kétszemélyes játékok.pdf",
     "Pasted image 20250423174900.png",
     "prog2 extra 3.md",
     "z tananyagok paste/MESTINT/MI05.pdf",
@@ -223,17 +198,12 @@
     "z tananyagok paste/MESTINT/combined_RL.pdf",
     "z tananyagok paste/MESTINT/MI01.pdf",
     "z tananyagok paste/ALKMAT/06_LKNGYAK.pdf",
+    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
     "Pasted image 20250429195743.png",
     "z tananyagok paste/fonya/eloadas02-2023.pdf",
     "Untitled.md",
     "Pasted image 20250428182335.png",
     "Pasted image 20250428182306.png",
-    "Pasted image 20250427191950.png",
-    "Pasted image 20250427135612.png",
-    "Pasted image 20250427111034.png",
-    "Pasted image 20250427111015.png",
-    "Pasted image 20250427095749.png",
-    "kidolgozasok/Informatika ismeretek/1. adatb.md",
     "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md",
     "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md",
     "kidolgozasok/Informatika ismeretek/7.  webtech (+ hálózat).md",
