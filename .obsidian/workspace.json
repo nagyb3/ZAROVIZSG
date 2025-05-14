@@ -6,7 +6,6 @@
       {
         "id": "ee84b849424df472",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "e6f538157d720c73",
@@ -14,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+                "file": "kidolgozasok/Informatika ismeretek/3. OOP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. op rendszerek"
+              "title": "3. OOP"
             }
           }
         ]
@@ -166,32 +165,35 @@
   },
   "active": "e6f538157d720c73",
   "lastOpenFiles": [
+    "prog2 extra 3.md",
+    "zzz pasted images/Pasted image 20250216065545.png",
+    "zzz pasted images/Pasted image 20250216131720.png",
+    "kidolgozasok/Informatika ismeretek/3. OOP.md",
+    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
+    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "z tananyagok paste/MESTINT/MI03.pdf",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/angular-example/node_modules/npm-registry-fetch/node_modules/negotiator/README.md",
-    "Pasted image 20250514172528.png",
-    "Pasted image 20250514172509.png",
-    "Pasted image 20250514172035.png",
+    "zzz pasted images/Pasted image 20250514172528.png",
+    "zzz pasted images/Pasted image 20250514172509.png",
+    "zzz pasted images/Pasted image 20250514172035.png",
     "z tananyagok paste/MESTINT/MI06 - Kétszemélyes játékok.pdf",
     "z tananyagok paste/MESTINT/MI13.pptx.pdf",
     "z tananyagok paste/MESTINT/MI05.pdf",
     "z tananyagok paste/MESTINT/MI04a - Informált keresések.pdf",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
-    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
-    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "kidolgozasok/Informatika ismeretek/8. hálózat.md",
     "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "Pasted image 20250514144551.png",
+    "zzz pasted images/Pasted image 20250514144551.png",
     "z tananyagok paste/IBIZA/rsa.pdf",
-    "Pasted image 20250514143600.png",
-    "Pasted image 20250514143519.png",
-    "Pasted image 20250514142025.png",
-    "Pasted image 20250514134311.png",
-    "Pasted image 20250514134241.png",
-    "Pasted image 20250514134208.png",
+    "zzz pasted images/Pasted image 20250514143600.png",
+    "zzz pasted images/Pasted image 20250514143519.png",
+    "zzz pasted images/Pasted image 20250514142025.png",
+    "zzz pasted images/Pasted image 20250514134311.png",
     "z tananyagok paste/MESTINT/MI02.pdf",
     "z tananyagok paste/IBIZA/9_Kártékony programok.pdf",
     "z tananyagok paste/IBIZA/titkosítások.pdf",
@@ -201,10 +203,7 @@
     "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
     "kidolgozasok/Informatika ismeretek/2. prog1.md",
-    "kidolgozasok/Informatika ismeretek/3. OOP.md",
-    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "README.md.md",
-    "prog2 extra 3.md",
     "Untitled.md",
     "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md",
     "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md",
