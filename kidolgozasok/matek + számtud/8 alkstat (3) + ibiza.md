@@ -1,9 +1,7 @@
 ```
 Statisztikai minta és becslések, átlag és szórás. Konfidenciaintervallumok. Az u-próba.
 
-Az informatikai biztonság fogalma, legfontosabb biztonsági célok. Fizikai védelem, kártékony
-programok, osztályozásuk terjedési módjuk és büntető rutinjuk szerint. Algoritmikus védelem
-eszközei: titkosítás, digitális aláírás, hash függvények. Az AES és RSA algoritmusok.
+Az informatikai biztonság fogalma, legfontosabb biztonsági célok. Fizikai védelem, kártékony programok, osztályozásuk terjedési módjuk és büntető rutinjuk szerint. Algoritmikus védelem eszközei: titkosítás, digitális aláírás, hash függvények. Az AES és RSA algoritmusok.
 ```
 
 # alkstat (3)
@@ -24,7 +22,6 @@ eszközei: titkosítás, digitális aláírás, hash függvények. Az AES és RS
 ### Szórás
 Fazekas I: 33. oldal
 variancia === szórásnégyzet
-
 - empirikus szórásnégyzet (variancia)
 [[10 - StatSample10.pdf]] 29. oldal
 - steiner formula
@@ -54,7 +51,6 @@ CIA hármas:
 
 ### Kártékony programok:
 [[9_Kártékony programok.pdf]]
-
 ### Osztályozásuk terjedési módjuk és büntető rutinjuk szerint.
 
 ### Algoritmikus védelem eszközei:
@@ -129,7 +125,7 @@ $$
 egyébként hamis
 
 -> **RSA által használt algoritmusok:**
-prímek generálása: 
+prímek generálása:
 - Miller-Rabin prímteszt
 e, d vizsgálata:
 - kibővített euklideszi algoritmus
