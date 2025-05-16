@@ -20,6 +20,30 @@
               "icon": "lucide-file",
               "title": "4. matviz + mestint (1)"
             }
+          },
+          {
+            "id": "90dd6f4394ed05f1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "z tananyagok paste/MATVIZ/matviz2ea.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "matviz2ea"
+            }
+          },
+          {
+            "id": "e3b91df47ecb76b9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "z tananyagok paste/MATVIZ/matviz1ea.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "matviz1ea"
+            }
           }
         ]
       }
@@ -165,6 +189,12 @@
   },
   "active": "a9a9be084ac67baa",
   "lastOpenFiles": [
+    "Pasted image 20250516180849.png",
+    "Pasted image 20250516180835.png",
+    "z tananyagok paste/MATVIZ/matviz2ea.pdf",
+    "z tananyagok paste/MATVIZ/matviz1ea.pdf",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
+    "Pasted image 20250516173259.png",
     "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
     "z tananyagok paste/ALKMAT/10_nemlinearisGYAK.pdf",
     "z tananyagok paste/ALKMAT/09_sajatertekGYAK.pdf",
@@ -177,12 +207,9 @@
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "Pasted image 20250514213113.png",
-    "z tananyagok paste/MESTINT/MI05.pdf",
     "Pasted image 20250514213100.png",
     "Pasted image 20250514211750.png",
-    "z tananyagok paste/MESTINT/MI03.pdf",
     "Pasted image 20250514211636.png",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "MI_06.pdf.md",
@@ -201,8 +228,6 @@
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/angular-example/node_modules/npm-registry-fetch/node_modules/negotiator/README.md",
-    "zzz pasted images/Pasted image 20250514172528.png",
-    "zzz pasted images/Pasted image 20250514172509.png",
     "kidolgozasok/Informatika ismeretek/8. hálózat.md",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
