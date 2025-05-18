@@ -8,17 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de8427f2c3a64576",
+            "id": "e5d47b9775244d7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+                "file": "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. diszkmat (1) + mestint (2)"
+              "title": "8 alkstat (3) + ibiza"
+            }
+          },
+          {
+            "id": "baf5c465da74e942",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "z tananyagok paste/IBIZA/rsa.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "rsa"
             }
           }
         ]
@@ -163,8 +175,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de8427f2c3a64576",
+  "active": "e5d47b9775244d7f",
   "lastOpenFiles": [
+    "Pasted image 20250518100012.png",
+    "z tananyagok paste/IBIZA/rsa.pdf",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
+    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "z tananyagok paste/MESTINT/MI13.pptx.pdf",
+    "Pasted image 20250517185546.png",
+    "Pasted image 20250517185237.png",
+    "Pasted image 20250517185234.png",
+    "Pasted image 20250517185111.png",
+    "z tananyagok paste/MESTINT/MI14.pdf",
+    "z tananyagok paste/MESTINT/MI18.pdf",
+    "z tananyagok paste/MESTINT/MI20a.pdf",
+    "z tananyagok paste/MESTINT/MI20b.pdf",
     "Pasted image 20250517181324.png",
     "Pasted image 20250517181253.png",
     "Pasted image 20250517181209.png",
@@ -172,29 +199,15 @@
     "Pasted image 20250517180926.png",
     "Pasted image 20250517180922.png",
     "z tananyagok paste/MESTINT/combined_RL.pdf",
-    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
-    "Pasted image 20250517174115.png",
     "z tananyagok paste/MESTINT/MI01.pdf",
-    "Pasted image 20250517173827.png",
-    "Pasted image 20250517173738.png",
-    "z tananyagok paste/MESTINT/MI14.pdf",
     "z tananyagok paste/MESTINT/MI02.pdf",
     "z tananyagok paste/MESTINT/MI03.pdf",
-    "z tananyagok paste/MESTINT/MI04a - Informált keresések.pdf",
-    "z tananyagok paste/MESTINT/MI05.pdf",
-    "z tananyagok paste/MESTINT/MI06 - Kétszemélyes játékok.pdf",
-    "z tananyagok paste/MESTINT/MI20b.pdf",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
-    "z tananyagok paste/MATVIZ/parameteres_feluletek.pdf",
-    "Pasted image 20250516183237.png",
-    "Pasted image 20250516183219.png",
     "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "MI_06.pdf.md",
     "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
     "kidolgozasok/Informatika ismeretek/1. adatb.md",
     "felveteli/felveteli README.md",
@@ -205,7 +218,6 @@
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/angular-example/node_modules/npm-registry-fetch/node_modules/negotiator/README.md",
     "kidolgozasok/Informatika ismeretek/8. hálózat.md",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
     "kidolgozasok/Informatika ismeretek/2. prog1.md",
     "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md",

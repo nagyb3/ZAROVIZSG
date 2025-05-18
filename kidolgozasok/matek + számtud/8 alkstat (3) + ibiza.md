@@ -41,10 +41,10 @@ Fazekas I: 120. oldal
 [[alapfogalmak.pdf]] 8. oldal
 CIA hármas:
 - Confidentiality (Bizalmasság)
-- Integrity (sértetlenség)
-- Availability (rendelkezésre állás)
-- Accountability (nyomonkövethetőség)
-- Assurance (biztosíték / garancia)
+- Integrity (Sértetlenség)
+- Availability (Rendelkezésre állás)
+- Accountability (Nyomonkövethetőség)
+- Assurance (Biztosíték / garancia)
 
 ### Fizikai védelem
 [[ibiza_fizikai_védelem.pdf]]
@@ -63,22 +63,30 @@ CIA hármas:
 
 ### AES titkosítás
 (Advanced Encryption Standard)
-
+Szimmetrikus titkosítási séma, vagyis a titkosító és a visszafejtő kulcs egyezik egymással
 ### RSA titkosítás
+Asszimmetrikus titkosítási séma, vagyis a két kulcs nem kapható meg egymásból polinomiális időben
 [[rsa.pdf]]
 (Rivest-Shamir-Adleman)
 jellemzői:
 - TODO
 
 =>**kulcsgenerálás lépései:**
-1, keressünk 2db prím számot
-2, adjuk meg az RSA modulust (n = p * q)
-3, számoljuk ki az Euler féle phi függvény értékét
+#### 1, keressünk 2db prím számot: p, q
 
+Ezeket a számokat a Miller-rabin prímteszt segítségével ellenőrizzük le, hogy tényleg prímek-e
+
+#### 2, adjuk meg az RSA modulust (n = p * q)
+
+#### 3, számoljuk ki az Euler féle phi függvény értékét
 $$
 \phi(n) = (p-1)(q-1)
 $$
-4, választunk egy véletlen `e` egészet úgy, hogy:
+
+Megjegyzés: az Eurler-féle phi függvény jelentése:
+![[Pasted image 20250518100012.png]]
+
+#### 4, választunk egy véletlen `e` egészet úgy, hogy:
 $$
 1 < e < \phi(n)
 $$
@@ -86,9 +94,15 @@ $$
 $$
 (e, \phi(n)) = 1
 $$
-(legnagyobb közös osztójuk 1)
+(e-nek és az phi(n)-nek legnagyobb közös osztója: 1)
 
-5, kiszámítjuk `d`-t úgy, hogy:
+-> Ez az `e` érték lesz az RSA titkosítási sémában a nyilvános kulcs része lesz, hiszen:
+$$
+PK = (e, n)
+$$
+Ezt a nyilvános kulcsot fogjuk felhasználni a TIKTOSÍTÁSHOZ (megj: e mint encryption)
+
+#### 5, kiszámítjuk `d`-t úgy, hogy:
 $$
 1 < d < \phi(n)
 $$
@@ -96,25 +110,26 @@ $$
 $$
 e * d \equiv 1 \space (mod \space \phi (n))
 $$
+Az RSA titkosítási sémában a d szám a privát kulcs (visszafejtő kulcs) részét fogja képezni, hiszen:
+$$
+SK: (n, d)
+$$
 
-=> titkosító: PK: (n, e)
-=> visszafejtő: SK: (n, d)
-
-RSA titkosítás:
+## Titkosítás RSA-val:
 
 $$
 Enc _{PK} (m) = m ^ e \space (mod \space n)
 $$
-RSA visszafejtés:
+### Titkosított üzenet vissafejtése RSA-val:
 $$
 Dec _{SK} = c ^ d \space (mod \space n)
 $$
 
-RSA aláírás:
+## Digitális aláírás RSA-val:
 $$
 Sign _{PK} (m) = m ^ d \space (mod \space n) = S
 $$
-RSA aláírás ellenőrzés
+#### Digitális aláírás ellenőrzése RSA-val:s
 $$
 Ver _{SK} = S ^ e \space (mod \space n) 
 $$
@@ -124,7 +139,7 @@ S^e \equiv m \space (mod \space n)
 $$
 egyébként hamis
 
--> **RSA által használt algoritmusok:**
+-> **RSA titkosítási séma által használt algoritmusok:**
 prímek generálása:
 - Miller-Rabin prímteszt
 e, d vizsgálata:
