@@ -42,6 +42,9 @@ Fazekas I: 120. oldal
 CIA hármas:
 - Confidentiality (Bizalmasság)
 - Integrity (Sértetlenség)
+	- Fajtái:
+		- adatok sértetlensége (data integrity)
+		- rendszer sértetlenség (system integrity)
 - Availability (Rendelkezésre állás)
 - Accountability (Nyomonkövethetőség)
 - Assurance (Biztosíték / garancia)
@@ -49,16 +52,29 @@ CIA hármas:
 ### Fizikai védelem
 [[ibiza_fizikai_védelem.pdf]]
 
+?A fizikai infrastruktúra védelme fontos. A fizikai infrastruktúrába bele tartozik azon hardver elem, amely a bizalmas adatokat tárolja, feldolgozza vagy továbbítja. Illetve a fizikai infrastruktúrába beletartozik az épület is, amely a hardvereket "tárolja".
+
+?Mitől kell fizikailag védeni a fizikai infrastruktúrát?
+- környezete tényezők
+- technikai veszélyek
+- Emberek
 ### Kártékony programok:
 [[9_Kártékony programok.pdf]]
 ### Osztályozásuk terjedési módjuk és büntető rutinjuk szerint.
 
+#### Terjedési módjuk szerint: 
+- vírus
+- worm (férgek)
+- trójai
+
+#### Büntető rutin szerint
+
 ### Algoritmikus védelem eszközei:
-- titkosítás
+- titkosítás (általában)
 [[titkosítások.pdf]]
-- digitális aláírás
+- digitális aláírás (általában)
 [[ibiza_hash_aláírás.pdf]]
-- hash függvények
+- hash függvények (általában)
 [[ibiza_hash_aláírás.pdf]]
 
 ### AES titkosítás
@@ -69,7 +85,7 @@ Asszimmetrikus titkosítási séma, vagyis a két kulcs nem kapható meg egymás
 [[rsa.pdf]]
 (Rivest-Shamir-Adleman)
 jellemzői:
-- TODO
+- ? prím faktorizáció miatt biztonságos ?
 
 =>**kulcsgenerálás lépései:**
 #### 1, keressünk 2db prím számot: p, q
