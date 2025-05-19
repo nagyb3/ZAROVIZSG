@@ -68,14 +68,22 @@ CIA hármas:
 - trójai
 
 #### Büntető rutin szerint
+- botnet
+- adathalász
+- kémprogram
+- gyökércsomagok (rootkit)
 
-### Algoritmikus védelem eszközei:
-- titkosítás (általában)
+## Algoritmikus védelem eszközei:
+## titkosítás
 [[titkosítások.pdf]]
-- digitális aláírás (általában)
+
+## digitális aláírás
 [[ibiza_hash_aláírás.pdf]]
-- hash függvények (általában)
+
+
+## hash függvények
 [[ibiza_hash_aláírás.pdf]]
+TODO hashfüggvény tulajdonságai
 
 ### AES titkosítás
 (Advanced Encryption Standard)
