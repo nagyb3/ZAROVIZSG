@@ -40,12 +40,12 @@ Fazekas I: 120. oldal
 ### Legfontosabb biztonsági célok
 [[alapfogalmak.pdf]] 8. oldal
 CIA hármas:
-- Confidentiality (Bizalmasság)
-- Integrity (Sértetlenség)
+- **Confidentiality (Bizalmasság)**
+- **Integrity (Sértetlenség)**
 	- Fajtái:
 		- adatok sértetlensége (data integrity)
 		- rendszer sértetlenség (system integrity)
-- Availability (Rendelkezésre állás)
+- **Availability (Rendelkezésre állás)**
 - Accountability (Nyomonkövethetőség)
 - Assurance (Biztosíték / garancia)
 
@@ -66,13 +66,11 @@ CIA hármas:
 - vírus
 - worm (férgek)
 - trójai
-
 #### Büntető rutin szerint
 - botnet
 - adathalász
 - kémprogram
 - gyökércsomagok (rootkit)
-
 ## Algoritmikus védelem eszközei:
 ## titkosítás
 [[titkosítások.pdf]]
