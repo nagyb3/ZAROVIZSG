@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "13f46c5c5b8513d9",
+        "id": "619c8fbc4bc16836",
         "type": "tabs",
         "children": [
           {
-            "id": "0e52e5445c3a8945",
+            "id": "602221af3d49bfdb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "kidolgozasok/Informatika ismeretek/mas/7. Infó tétel - Webtech.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "7. Infó tétel - Webtech"
             }
           }
         ]
@@ -161,15 +163,22 @@
   },
   "active": "66c98d14c1cba2b8",
   "lastOpenFiles": [
-    "kidolgozasok/matek + számtud/mas/Matek_5.pdf",
+    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
+    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
+    "kidolgozasok/matek + számtud/mas/4. Matek tétel - Matviz, Mestint.pdf",
+    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
+    "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
+    "kidolgozasok/matek + számtud/mas/7. Matek tétel - AlkMat, Fonya.pdf",
+    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
+    "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf",
+    "kidolgozasok/Informatika ismeretek/7.  webtech.md",
+    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "kidolgozasok/matek + számtud/mas/Matek_3.pdf",
     "kidolgozasok/matek + számtud/mas/Matek_4.pdf",
+    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
+    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/matek + számtud/mas/Matek_4_ALT_part1.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/3. Infó tétel - OOP Alapjai.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/1. Infó tétel - Adatbázis.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/! Info_5 SWE.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/8. Infó tétel - Hálózatok.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/! Info_4 _OPRENDSZER.pdf",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
     "kidolgozasok/Informatika ismeretek/1. adatb.md",
@@ -177,11 +186,7 @@
     "Pasted image 20250521110101.png",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
     "kidolgozasok/Informatika ismeretek/8. hálózat.md",
-    "z tananyagok paste/hap_GZ_2017_2018_2.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/Info_5.pdf",
-    "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
@@ -195,9 +200,6 @@
     "Pasted image 20250520121342.png",
     "Pasted image 20250520121317.png",
     "kidolgozasok/Informatika ismeretek/2. prog1.md",
-    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
-    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "MI_06.pdf.md",
     "felveteli/felveteli README.md",
     "README.md.md",
