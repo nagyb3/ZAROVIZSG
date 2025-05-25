@@ -4,49 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "e0080c0a4a4a1ab7",
+        "id": "b73b246c2be84722",
         "type": "tabs",
         "children": [
           {
-            "id": "5f57d8f49dbe72db",
+            "id": "b77a3d43ce99adf2",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf"
+                "file": "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "8. Matek tétel - Statisztika, Ibiza"
+              "title": "3. Matek tétel - Kalkulus - Alkmat, Logika"
             }
           },
           {
-            "id": "0c0ff91a156259f8",
+            "id": "d23be178b3f63841",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "7. diszkmat (2) + fonya (2)"
-            }
-          },
-          {
-            "id": "218956e13fff9ae1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "kidolgozasok/matek + számtud/mas/7. Matek tétel - AlkMat, Fonya.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "7. Matek tétel - AlkMat, Fonya"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 338.5
   },
   "right": {
     "id": "f9353f01ba49ceb0",
@@ -188,33 +171,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "218956e13fff9ae1",
+  "active": "b77a3d43ce99adf2",
   "lastOpenFiles": [
+    "z tananyagok paste/LOGIKA/eloadas05-2022.pdf",
+    "z tananyagok paste/LOGIKA/eloadas04-2022.pdf",
+    "z tananyagok paste/LOGIKA/eloadas03-2022.pdf",
+    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
+    "z tananyagok paste/LOGIKA/eloadas01-2022.pdf",
+    "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
+    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
+    "kidolgozasok/matek + számtud/mas/4. Matek tétel - Matviz, Mestint.pdf",
+    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
+    "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf",
+    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
+    "README.md.md",
+    "zzz pasted images/Pasted image 20250514190739.png",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "zzz pasted images/Pasted image 20250523185650.png",
     "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-    "kidolgozasok/matek + számtud/mas/7. Matek tétel - AlkMat, Fonya.pdf",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
-    "kidolgozasok/matek + számtud/mas/Matek_4.pdf",
-    "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
-    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
-    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
-    "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf",
-    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "z tananyagok paste/fonya/eloadas09-2022.pdf",
-    "z tananyagok paste/fonya/eloadas08-2023-web.pdf",
-    "Pasted image 20250522104250.png",
-    "Pasted image 20250522104008.png",
-    "Pasted image 20250522103947.png",
-    "Pasted image 20250522103920.png",
-    "Pasted image 20250522103832.png",
-    "Pasted image 20250522103802.png",
-    "Pasted image 20250522103725.png",
-    "Pasted image 20250522103618.png",
-    "Pasted image 20250522103527.png",
-    "Pasted image 20250522103455.png",
-    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
+    "zzz pasted images/Pasted image 20250522104250.png",
+    "zzz pasted images/Pasted image 20250522104008.png",
+    "zzz pasted images/Pasted image 20250522103947.png",
+    "zzz pasted images/Pasted image 20250522103920.png",
+    "zzz pasted images/Pasted image 20250522103832.png",
+    "zzz pasted images/Pasted image 20250522103802.png",
+    "zzz pasted images/Pasted image 20250522103725.png",
+    "zzz pasted images/Pasted image 20250522103618.png",
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
     "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
@@ -228,7 +213,6 @@
     "kidolgozasok/Informatika ismeretek/2. prog1.md",
     "MI_06.pdf.md",
     "felveteli/felveteli README.md",
-    "README.md.md",
     "Untitled.md",
     "prog2 extra 3.md",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/angular-example/node_modules/npm-registry-fetch/node_modules/negotiator/README.md",
