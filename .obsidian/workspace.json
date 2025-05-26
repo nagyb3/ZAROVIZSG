@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9c0c12bb279236c6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "1. Matek Tétel - Statisztika, Adatszerkezetek"
+            }
+          },
+          {
             "id": "e22472ac320f2602",
             "type": "leaf",
             "state": {
@@ -22,7 +34,7 @@
             }
           },
           {
-            "id": "3522036bea88ccd2",
+            "id": "2f5ac13dd7af6575",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,21 +46,9 @@
               "icon": "lucide-file",
               "title": "1. alkstat (1) + adatszerk (1)"
             }
-          },
-          {
-            "id": "56bb3f1352b972bc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "z tananyagok paste/alkstat/11 - Hypotheses11.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "11 - Hypotheses11"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,12 +190,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3522036bea88ccd2",
+  "active": "2f5ac13dd7af6575",
   "lastOpenFiles": [
-    "kidolgozasok/matek + számtud/mas/Matek_5.pdf",
     "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf",
-    "z tananyagok paste/IBIZA/alapfogalmak.pdf",
     "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "z tananyagok paste/alkstat/8 - NormDistr8.pdf",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "Pasted image 20250526202909.png",
+    "Pasted image 20250526202844.png",
+    "z tananyagok paste/alkstat/11 - Hypotheses11.pdf",
+    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
+    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
+    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
+    "z tananyagok paste/alkstat/Fazekas István - Alkalmazott Statisztika.pdf",
+    "kidolgozasok/matek + számtud/mas/Matek_5.pdf",
+    "z tananyagok paste/IBIZA/alapfogalmak.pdf",
     "Pasted image 20250526190328.png",
     "Pasted image 20250526185203.png",
     "Pasted image 20250526185126.png",
@@ -204,27 +215,15 @@
     "Pasted image 20250526185109.png",
     "Pasted image 20250526185045.png",
     "Pasted image 20250526185038.png",
-    "Pasted image 20250526185005.png",
-    "Pasted image 20250526184956.png",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
-    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
     "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
-    "z tananyagok paste/alkstat/11 - Hypotheses11.pdf",
     "z tananyagok paste/alkstat/10 - StatSample10.pdf",
     "z tananyagok paste/alkstat/9 - JointDistr9.pdf",
-    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/3. Infó tétel - OOP Alapjai.pdf",
-    "z tananyagok paste/alkstat/3 - Kolmogorov3.pdf",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "logika kontext.md",
     "kidolgozasok/matek + számtud/random/logika kontext.md",
     "README.md.md",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",

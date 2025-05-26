@@ -77,8 +77,9 @@ Fentiben m0 jelöli a sokasági átlagot (aka mű)
 ![[Pasted image 20250526185126.png]]
 
 
-megj: FAE minta (független azonos eloszlású)
 
+
+megj: FAE minta (független azonos eloszlású) ?
 
 -----------
 # ibiza
