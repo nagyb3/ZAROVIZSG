@@ -6,18 +6,40 @@ Az informatikai biztonság fogalma, legfontosabb biztonsági célok. Fizikai vé
 
 # alkstat (3)
 [[10 - StatSample10.pdf]]
+
+
 ### Statisztikai minta
 ![[Pasted image 20250319230957.png]]
+![[Pasted image 20250526184931.png]]
+
+naivan: egy valószínűségi változót megfigyelünk n-szer, egymástól függetlenül. Ezek lesznek X1, X2, ..., Xn a megfigyelés eredményei. => Ezek megfigyelési eredmények lesznek a minta
+
+A gyakorlatban mindig minta realizációt figyelünk meg ??
+
+Minta realizáció ???
 
 ### Becslések
 (Fazekas I 117. oldal)
-- torzítatlan becslés
-- konzisztens becslés
-- maximum likelihood becslés
+
+CÉLJA: a becslések segítségével tudunk egy minta alapján a fontosabb statisztikai mutatókra következtetést tenni. (a teljes sokasságra tekintve)
+
+A minta átlaga a sokasági átlag körül fog ingadozni.
+A minta átlaga jele: μ (mű)
+
+
+![[Pasted image 20250526184949.png]]
+
+
+![[Pasted image 20250526185005.png]]
 
 ### Átlag
 (átlag - empirikus közép)
 [[10 - StatSample10.pdf]] 27. oldal
+(E kidolgozásból:)
+Számtani vagy aritmetikai középértéken n darab szám átlagát, azaz a számok összegének n-ed részét értjük. A számtani közepet általában A betűvel jelöljük:
+![[Pasted image 20250526185045.png]]
+
+
 
 ### Szórás
 Fazekas I: 33. oldal
@@ -30,16 +52,46 @@ variancia === szórásnégyzet
 ### Konfidenciaintervallumok.
 Fazekas I: 119. oldal
 
+A konfidencia intervallumot becslések megbízhatóságához használjuk fel. 
+	konfidencia szint === megbízhatósági szint (ez lesz, hogy 1-ből mennyit von ki alpha, vagyis hogy a sokasági átlag mekkora eséllyel esik az intervallumba)
+	jelölése: 1 - alpha
+	VAGYIS: alpha azt jelöli, hogy a "haranggörbének" mekkora százalékát nem fogadjuk el
+
+Innentől az a célunk, hogy a minta átlag beleessen a sokasági átlag konfidencia intervallumába.
+![[Pasted image 20250526190328.png]]
+
+![[Pasted image 20250526185038.png]]
+
+
 ### Az u-próba
 Fazekas I: 120. oldal
+
+[[11 - Hypotheses11.pdf]]
+
+![[Pasted image 20250526185120.png]]
+![[Pasted image 20250526185124.png]]
+
+Fentiben m0 jelöli a sokasági átlagot (aka mű)
+
+
+![[Pasted image 20250526185126.png]]
+
+
+megj: FAE minta (független azonos eloszlású)
+
 
 -----------
 # ibiza
 ### Az informatikai biztonság fogalma
 [[alapfogalmak.pdf]] 6. oldal
+
+![[Pasted image 20250526185203.png]]
+adatok bizalmassága, sértetlensége, rendelkezésre állása (**BSR**)
+rendszerelemek sértetlensége és rendelkezésre állása (**S és R**) szempontjából zárt, teljes körű, folytonos és a kockázatokkal arányos (**ZTFK**)
+
 ### Legfontosabb biztonsági célok
 [[alapfogalmak.pdf]] 8. oldal
-CIA hármas:
+CIA hármas: (**BSR**)
 - **Confidentiality (Bizalmasság)**
 - **Integrity (Sértetlenség)**
 	- Fajtái:
