@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b73b246c2be84722",
+        "id": "e61de740855c63d0",
         "type": "tabs",
         "children": [
           {
-            "id": "b77a3d43ce99adf2",
+            "id": "0ae93d68f828a949",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -20,19 +20,7 @@
             }
           },
           {
-            "id": "d23be178b3f63841",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "kidolgozasok/matek + számtud/mas/Matek_3.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Matek_3"
-            }
-          },
-          {
-            "id": "ac0b0065061d7722",
+            "id": "593320e63aff49e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,39 +176,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac0b0065061d7722",
+  "active": "593320e63aff49e1",
   "lastOpenFiles": [
-    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_3.pdf",
-    "z tananyagok paste/LOGIKA/eloadas08-2022.pdf",
-    "z tananyagok paste/LOGIKA/eloadas07-Logika8-Aszalos-2022.pdf",
+    "Pasted image 20250526110215.png",
     "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
+    "Pasted image 20250526110130.png",
+    "Pasted image 20250526105849.png",
+    "Pasted image 20250526105758.png",
+    "Pasted image 20250526105743.png",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
+    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
+    "logika kontext.md",
+    "kidolgozasok/matek + számtud/mas/4. Matek tétel - Matviz, Mestint.pdf",
+    "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
+    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+    "z tananyagok paste/LOGIKA/eloadas05-2022 (1).pdf",
+    "z tananyagok paste/LOGIKA/eloadas07-Logika8-Aszalos-2022.pdf",
+    "kidolgozasok/matek + számtud/random/logika kontext.md",
+    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
+    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/3. Infó tétel - OOP Alapjai.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/5. Infó tétel - Verziókezelés, OOP.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/6. Infó tétel - Szoftverfejlesztési Módszertanok.pdf",
+    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "Pasted image 20250525143033.png",
     "Pasted image 20250525141828.png",
     "Pasted image 20250525140601.png",
     "Pasted image 20250525140558.png",
     "Pasted image 20250525140512.png",
-    "z tananyagok paste/LOGIKA/eloadas05-2022.pdf",
-    "z tananyagok paste/LOGIKA/eloadas04-2022.pdf",
-    "z tananyagok paste/LOGIKA/eloadas03-2022.pdf",
-    "z tananyagok paste/LOGIKA/eloadas01-2022.pdf",
-    "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
-    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
-    "kidolgozasok/matek + számtud/mas/4. Matek tétel - Matviz, Mestint.pdf",
     "README.md.md",
-    "zzz pasted images/Pasted image 20250514190739.png",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "zzz pasted images/Pasted image 20250523185650.png",
     "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
-    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "zzz pasted images/Pasted image 20250522104250.png",
-    "zzz pasted images/Pasted image 20250522104008.png",
-    "zzz pasted images/Pasted image 20250522103947.png",
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
@@ -233,8 +222,6 @@
     "Untitled.md",
     "prog2 extra 3.md",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/angular-example/node_modules/npm-registry-fetch/node_modules/negotiator/README.md",
-    "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md",
-    "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md",
-    "kidolgozasok/Informatika ismeretek/7.  webtech (+ hálózat).md"
+    "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md"
   ]
 }
