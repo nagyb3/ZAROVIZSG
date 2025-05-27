@@ -6,9 +6,7 @@ görög ábécé:
 
 μ: mű -> várható érték statisztika
 
-
-
-## EGYÉRTELMŰSÍTŐ (külső forrásokból melyik a jobb):
+## EGYÉRTELMŰSÍTŐ (mástól kidolgozottakból melyik a jobb):
 ### MATEK
 1A [[1. Matek Tétel - Statisztika, Adatszerkezetek.pdf]]
 1B [[1. Matek Tétel - Statisztika, Adatszerkezetek.pdf]]
