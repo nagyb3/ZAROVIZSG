@@ -23,6 +23,8 @@ alt: [[Matek_2.pdf]]
 [[Matek_3.pdf]]
 3B [[3. Matek tétel - Kalkulus - Alkmat, Logika.pdf]]
 
+alt: [[Matek_3.pdf]]
+
 4A [[Matek_4_ALT_part1.pdf]]
 4B [[4. Matek tétel - Matviz, Mestint.pdf]]
 
@@ -31,6 +33,8 @@ alt: [[Matek_2.pdf]]
 
 6A [[6. Matek tétel - Gráfok(-), Fonya.pdf]]
 6B [[6. Matek tétel - Gráfok(-), Fonya.pdf]]
+
+alt: [[Matek_6.pdf]]
 
 7A [[Matek_7.pdf]]
 7B [[7. Matek tétel - AlkMat, Fonya.pdf]]

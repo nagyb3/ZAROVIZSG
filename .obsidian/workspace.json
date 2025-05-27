@@ -23,12 +23,24 @@
             "id": "5b821dad45f60784",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "zzz pasted images/Pasted image 20250527090914.png"
+                "file": "README.md.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250527090914"
+              "icon": "lucide-file",
+              "title": "README.md"
+            }
+          },
+          {
+            "id": "349293ad65d5f088",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -174,23 +186,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66c98d14c1cba2b8",
+  "active": "5b821dad45f60784",
   "lastOpenFiles": [
+    "README.md.md",
+    "kidolgozasok/matek + számtud/mas/Matek_2.pdf",
     "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf",
+    "kidolgozasok/matek + számtud/mas/Matek_1.pdf",
+    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
+    "matek 2.pdf.md",
+    "zzz pasted images/Pasted image 20250527090914.png",
     "PTI BSc tételsor_magyar_2021.pdf",
     "kidolgozasok/Informatika ismeretek/mas/7. Infó tétel - Webtech.pdf",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "README.md.md",
     "kidolgozasok/matek + számtud/mas/Matek_3.pdf",
     "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
-    "zzz pasted images/Pasted image 20250527090914.png",
     "zzz pasted images/Pasted image 20250527090904.png",
-    "kidolgozasok/matek + számtud/mas/Matek_1.pdf",
-    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
     "kidolgozasok/matek + számtud/mas/Matek_5.pdf",
     "6. Matek tétel - AlkMat, Fonya.pdf.md",
     "kidolgozasok/matek + számtud/mas/Matek_7.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_8.pdf",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
@@ -219,7 +232,6 @@
     "MI_06.pdf.md",
     "felveteli/felveteli README.md",
     "Untitled.md",
-    "prog2 extra 3.md",
-    "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/angular-example/node_modules/npm-registry-fetch/node_modules/negotiator/README.md"
+    "prog2 extra 3.md"
   ]
 }
