@@ -35,19 +35,19 @@ görög ábécé:
 8B
 
 ### INFO
-1
+1 [[]]
 
 2
 
 3
 
-4
+4 [[]]
 
-5
+5 [[]]
 
-6
+6 [[! Info_6 modszert.pdf]]
 
-7
+7 [[7. Infó tétel - Webtech.pdf]]
 
-8
+8 [[Info_8.pdf]]
 
