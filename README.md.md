@@ -60,15 +60,11 @@ alt: [[Matek_6.pdf]]
 8 [[Info_8.pdf]]
 
 
-
-
 Emberről elnevezett fogalmak:
 
 Gauss-elimináció
 Gauss-féle normálegyenlet
 Gauss-eloszlás
-
-
 
 ![[Pasted image 20250527090904.png]]
 ![[Pasted image 20250527090914.png]]

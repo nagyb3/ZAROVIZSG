@@ -111,12 +111,17 @@ CIA hármas: (**BSR**)
 - környezete tényezők
 - technikai veszélyek
 - Emberek
+
+
 ### Kártékony programok:
 [[9_Kártékony programok.pdf]]
-### Osztályozásuk terjedési módjuk és büntető rutinjuk szerint.
+
+Fogalma:
+![[Pasted image 20250527203130.png]]
+### Kártékony programok osztályozásuk terjedési módjuk és büntető rutinjuk szerint
 
 #### Terjedési módjuk szerint: 
-- vírus
+- vírus: fertőzött állomány futtatása
 - worm (férgek)
 - trójai
 #### Büntető rutin szerint
@@ -128,17 +133,49 @@ CIA hármas: (**BSR**)
 ## titkosítás
 [[titkosítások.pdf]]
 
+Asszimmetrikus titkosítás
+
+Szimmetrikus titkosítás
+
 ## digitális aláírás
 [[ibiza_hash_aláírás.pdf]]
+
+A digitális aláírás használatával az 
 
 
 ## hash függvények
 [[ibiza_hash_aláírás.pdf]]
-TODO hashfüggvény tulajdonságai
+
+Tetszőleges véges n hosszú üzenethez egy n hosszú üzenetet rendelünk.
+
+A hash függvények képes teljesíteni számunkra az adatintegritást (CIA-ból I), mivel egy adott adatok halmazról elkészített hash értéket elküldjük az adathalmazzal együtt, és az adathalmaz fogadója képes a hash függvény segítségével ellenőrzni, hogy a megkapott adathalmaz hash érték tényleg megegyezik-e azzal amit megkapott.
+
+másnéven a hash értéket hívjhatjuk: LENYOMAT / FINGERPRINT
+
+Lavina-hatás
+
+Hash függvény tulajdonság: 
+- első ősképellenálló
+	- form: y-hoz nehéz olyan x értéket találni, hogy y = H(x) tejesüljön
+	- magyarul: egy hash értékhez nehéz megtalálni a "bemeneti értéket"
+- második ősképellenálló (másnéven gyengén ütközésmentes)
+	- form: egy x értékhez nehéz egy olyan x' értéket találni, hogy x != x' és H(x) = H(x')
+	- magyarul: nehéz egy bemeneti értékhez egy másik bemeneti értéket találni, hogy ez a kettő bemeneti érték különböző legyen és a hash értékük azonos legyen 
+- ütközésmentes: nehéz olyan x, x' eleme X értékeket találni, hogy H(x) = H(x')
+	- magyarul: nehéz két olyan értéket találni amelyeknek hash értékekük megegyezne
 
 ### AES titkosítás
 (Advanced Encryption Standard)
 Szimmetrikus titkosítási séma, vagyis a titkosító és a visszafejtő kulcs egyezik egymással
+
+![[Pasted image 20250527215019.png]]
+
+k a kulcs
+
+128bit (16 byte) információt tudunk titkosítani ezen algoritmussal
+
+ezen 16 byte információt feloszjtuk egy 4x4-es gridbe
+
 ### RSA titkosítás
 Asszimmetrikus titkosítási séma, vagyis a két kulcs nem kapható meg egymásból polinomiális időben
 [[rsa.pdf]]
