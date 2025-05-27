@@ -16,6 +16,7 @@ görög ábécé:
 2B [[2. Matek tétel - Valség, Algoritmusok.pdf]]
 
 3A [[3. Matek tétel - Kalkulus - Alkmat, Logika.pdf]]
+[[Matek_3.pdf]]
 3B [[3. Matek tétel - Kalkulus - Alkmat, Logika.pdf]]
 
 4A [[Matek_4_ALT_part1.pdf]]
