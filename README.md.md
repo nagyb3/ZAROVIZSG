@@ -1,6 +1,7 @@
 
 https://inf.unideb.hu/sites/default/files/inline-files/PTI%20BSc%20t%C3%A9telsor_magyar_2021.pdf
 
+[[PTI BSc tételsor_magyar_2021.pdf]]
 
 görög ábécé:
 
@@ -49,3 +50,16 @@ görög ábécé:
 
 8 [[Info_8.pdf]]
 
+
+
+
+Emberről elnevezett fogalmak:
+
+Gauss-elimináció
+Gauss-féle normálegyenlet
+Gauss-eloszlás
+
+
+
+![[Pasted image 20250527090904.png]]
+![[Pasted image 20250527090914.png]]
