@@ -12,8 +12,12 @@ görög ábécé:
 1A [[1. Matek Tétel - Statisztika, Adatszerkezetek.pdf]]
 1B [[1. Matek Tétel - Statisztika, Adatszerkezetek.pdf]]
 
+alt: [[Matek_1.pdf]]
+
 2A [[2. Matek tétel - Valség, Algoritmusok.pdf]]
 2B [[2. Matek tétel - Valség, Algoritmusok.pdf]]
+
+alt: [[Matek_2.pdf]]
 
 3A [[3. Matek tétel - Kalkulus - Alkmat, Logika.pdf]]
 [[Matek_3.pdf]]
