@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74b40ff0f1b98eee",
+        "id": "b7e56158896bf355",
         "type": "tabs",
         "children": [
           {
-            "id": "3fb941ff0e20b394",
+            "id": "e045a7435a5d289a",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -20,19 +20,45 @@
             }
           },
           {
-            "id": "079256681366c0d3",
+            "id": "7319f9c1a6839604",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "zzz pasted images/Pasted image 20250528123642.png"
+                "file": "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250528123642"
+              "icon": "lucide-file",
+              "title": "8 alkstat (3) + ibiza"
+            }
+          },
+          {
+            "id": "910cac762dc3d1f1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "8. Matek tétel - Statisztika, Ibiza"
+            }
+          },
+          {
+            "id": "224146f01eea334e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "z tananyagok paste/IBIZA/9_Kártékony programok.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "9_Kártékony programok"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,52 +200,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66c98d14c1cba2b8",
+  "active": "224146f01eea334e",
   "lastOpenFiles": [
+    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
+    "z tananyagok paste/IBIZA/9_Kártékony programok.pdf",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
     "kidolgozasok/ZV-10-4.pdf",
-    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
+    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
+    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
+    "z tananyagok paste/prog2/~$05prog2_Java_Csomag.pptx",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "kidolgozasok/Informatika ismeretek/mas/3. Infó tétel - OOP Alapjai.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/!Info_3 OOP.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/8. Infó tétel - Hálózatok.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/Info_8.pdf",
+    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
+    "kidolgozasok/matek + számtud/mas/7. Matek tétel - AlkMat, Fonya.pdf",
+    "jegyzet 2.md",
+    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
+    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "zzz pasted images/Pasted image 20250528123642.png",
     "README.md.md",
-    "z tananyagok paste/IBIZA/rsa.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_5.pdf",
     "zzz pasted images/Pasted image 20250528150222.png",
     "zzz pasted images/Pasted image 20250528150207.png",
     "zzz pasted images/Pasted image 20250528144629.png",
-    "z tananyagok paste/IBIZA/5_DES_AES.pdf",
-    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
-    "z tananyagok paste/IBIZA/ibiza_hash_aláírás.pdf",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "zzz pasted images/Pasted image 20250528131209.png",
     "zzz pasted images/Pasted image 20250528131153.png",
     "zzz pasted images/Pasted image 20250528124806.png",
     "zzz pasted images/Pasted image 20250528124748.png",
     "zzz pasted images/Pasted image 20250528124156.png",
-    "zzz pasted images/Pasted image 20250528123642.png",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
-    "kidolgozasok/matek + számtud/mas/Matek_4.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_3.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_1.pdf",
     "zzz pasted images/Pasted image 20250527203130.png",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
     "kidolgozasok/Informatika ismeretek/1. adatb.md",
-    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
     "prog2 extra 3.md",
     "matek 2.pdf.md",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
     "6. Matek tétel - AlkMat, Fonya.pdf.md",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
-    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
     "logika kontext.md",
     "kidolgozasok/matek + számtud/random/logika kontext.md",
-    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/Informatika ismeretek/2. prog1.md",
     "MI_06.pdf.md",
-    "felveteli/felveteli README.md",
-    "Untitled.md"
+    "felveteli/felveteli README.md"
   ]
 }

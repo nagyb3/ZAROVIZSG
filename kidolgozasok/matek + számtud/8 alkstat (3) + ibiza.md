@@ -263,7 +263,7 @@ Hash függvény tulajdonság:
 
 ### AES titkosítás
 (Advanced Encryption Standard)
-Szimmetrikus titkosítási séma, vagyis a titkosító és a visszafejtő kulcs egyezik egymással.
+Szimmetrikus titkosítási séma, vagyis a titkosító és a visszafejtő kulcs egyezik egymással. ... ?
 
 ![[Pasted image 20250527220148.png]]
 ![[Pasted image 20250527220228.png]]
@@ -277,7 +277,6 @@ ezen 16 byte információt feloszjtuk egy 4x4-es gridbe
 Az AES titkosítási folyamata a következő módon néz ki:
 
 ![[Pasted image 20250527220412.png]]
-
 ### RSA titkosítás
 Asszimmetrikus titkosítási séma, vagyis a két kulcs nem kapható meg egymásból polinomiális időben
 [[rsa.pdf]]
@@ -285,7 +284,7 @@ Asszimmetrikus titkosítási séma, vagyis a két kulcs nem kapható meg egymás
 jellemzői:
 - ? prím faktorizáció miatt biztonságos ?
 
-=>**kulcsgenerálás lépései:**
+=> **kulcsgenerálás lépései:**
 #### 1, keressünk 2db prím számot: p, q
 
 Ezeket a számokat a Miller-rabin prímteszt segítségével ellenőrizzük le, hogy tényleg prímek-e
