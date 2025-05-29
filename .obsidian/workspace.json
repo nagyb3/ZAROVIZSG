@@ -4,31 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "b7e56158896bf355",
+        "id": "a6cc4b480c28bcff",
         "type": "tabs",
-        "dimension": 47.30831973898858,
         "children": [
           {
-            "id": "02477bbb24572321",
+            "id": "dc9bca6138df5eaf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "zzz pasted images/Pasted image 20250529122440.png"
+                "file": "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250529122440"
+              "icon": "lucide-file",
+              "title": "7. diszkmat (2) + fonya (2)"
             }
-          }
-        ]
-      },
-      {
-        "id": "04cfaf2e2250573f",
-        "type": "tabs",
-        "dimension": 52.69168026101142,
-        "children": [
+          },
           {
-            "id": "fa8f5425ad7f1af0",
+            "id": "10f26d947b15578d",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -40,7 +34,23 @@
             }
           },
           {
-            "id": "305cbdd3b7d6c8fa",
+            "id": "f55c204463ea0e69",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "29dd6f3dcbd6c487",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed53b3bdc4785655",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -50,9 +60,20 @@
               "icon": "lucide-file-text",
               "title": "7. Matek tétel - AlkMat, Fonya"
             }
+          },
+          {
+            "id": "7e18010c1a315345",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "z tananyagok paste/DISZKMAT/ea_09.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ea_09"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 200
   },
   "right": {
     "id": "f9353f01ba49ceb0",
@@ -194,11 +215,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66c98d14c1cba2b8",
+  "active": "ed53b3bdc4785655",
   "lastOpenFiles": [
-    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
-    "kidolgozasok/matek + számtud/mas/7. Matek tétel - AlkMat, Fonya.pdf",
     "z tananyagok paste/DISZKMAT/ea_09.pdf",
+    "kidolgozasok/matek + számtud/mas/7. Matek tétel - AlkMat, Fonya.pdf",
+    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "Pasted image 20250529131303.png",
+    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "kidolgozasok/Informatika ismeretek/mas/2. Infó tétel - Prog Alapok.pdf",
     "zzz pasted images/Pasted image 20250529122440.png",
     "zzz pasted images/Pasted image 20250529114526.png",
     "zzz pasted images/Pasted image 20250529114424.png",
@@ -211,9 +236,6 @@
     "z tananyagok paste/IBIZA/rsa.pdf",
     "kidolgozasok/Informatika ismeretek/mas/5. Infó tétel - Verziókezelés, OOP.pdf",
     "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "z tananyagok paste/IBIZA/9_Kártékony programok.pdf",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
     "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
     "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
@@ -226,7 +248,6 @@
     "zzz pasted images/Pasted image 20250528150222.png",
     "zzz pasted images/Pasted image 20250528150207.png",
     "zzz pasted images/Pasted image 20250528144629.png",
-    "zzz pasted images/Pasted image 20250528131209.png",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "kidolgozasok/Informatika ismeretek/1. adatb.md",
     "prog2 extra 3.md",
