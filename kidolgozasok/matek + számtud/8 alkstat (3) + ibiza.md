@@ -154,8 +154,13 @@ Megj: A diák csak kontextként vannak ennyi biztos nem kell...
 Környezeti csapások
 
 Technikai fenyegetések
+- feszültséghiány
+- túlfeszültség
+- elektromágneses interferencia
 
-Emberi fenyegetések
+Emberi fenyegetések:
+- jogosulatlan hozzáférés
+- lopás
 
 ### Kártékony programok:
 [[9_Kártékony programok.pdf]]
@@ -190,21 +195,138 @@ A vírus kód lefutásával valamilyen kárt okoz, pl. törli az adatokat, progr
 	- Hozzáfűződő (append): az alkalmazások végéhez fűződnek, elhelyeznek azonban a program elején egy kódot, hogy az alkalmazás indulásakor előbb ők töltődjenek be
 	- felülírő (replace) vírusokat: az alkalmazás elejét írják felül saját kódjukkal, így a fertőzött állomány adatot veszít, az eredeti állapot nem állítható helyre.
 	- => amennyiben egy fertőzött fájlt elindítunk, a vírus betöltődik a memóriába és megfertőzi az összes többi elindított programokat
-- MACROVÍRUSOK: 
+- MACROVÍRUSOK: TODO
 - ÖSSZETETT VÍRUSOK: többféle módon, többféle állományt képesek megfertőzni (?)
 
 ##### Vírusok csoportosítási rejtezkedési stratégiájuk szerint
 
 
 #### Worm (férgek)
--> 
+-> Sebezhetőség kihasználása
 
-#### Trójai
+Kliens és szerver oldali szoftver sebezhetőségének kiaknázásával férnek hozzá más számítógépekhez
+
+Használhatnak hálózati kapcsolatokat, hogy rendszerről rendszerre terjedjenek.
+
+Terjedhetnek megosztott médián keresztül, pl USB drive, CD, DVD lemezek.
+
+E-mail vagy üzenőfal férgek: makrók és script kódok segítségével terjednek e-mail csatolmány vagy Instant Messenger csatolmányain keresztül.
+
+**Önsokszorozók**, mivel nincsen szükségük gazdaprogramra.
+
+A modern férgek:
+- multiplatform: többféle platformot is támadnak, főleg népszerű UNIX variánsokat, illetve többféle népszerű dokumentumok makró és script kódjait.
+- multi-kihasználás: többféle módú behatolási rendszer (Web szerverek, böngészők, e-amail, fájl megosztás, egyéb hálózati alkalmazások stb.)
+- Ultragyors terjedés: optimalizálják terjedésüket, hogy rövid idő alatt minél nagyobb valószínűséggel minél több sebezehtő gépet próbáljanak.
+- Poliform/metamorf
+- szállítási eszközei: ideális többféle bünteti rutin terjesztésére => DDOS, rootkit, spyware
+
+Drive-by-Downloads: 
+-> célja: felhasználói alkalmazások hibáinak (bug) kihasználása
+- Böngésző sebezhetőségét használja ki.
+- A felhasználó egy a támadó által kontrollált weboldalt megnéz, a felhasználó tudta nélkül a böngésző bug-ját kihasználva letölt és installál egy kártékony programot.
+
+Kliens-oldali sebezhetőség:
+- malvertising: a támadó fizet, hogy hírdetések jelenjenek meg a célpont weboldalakon. A hírdetések kártékony programot tartalmaznak.
+- email kliensek bug-jainak kihasználása
+- PDF-olvasó bug: pdf olvasó kártékony programot installál amikor PDF dokumentumot nézünk.
+
+Clickjacking:
+-> A támadó célja, hogy összegyűjtsön a fertőzött felhasználóktól klikkeket.
+"akaratlan lájkolás"-> a böngészőben a kattintást átirányítja a támadó számára ideális helyre. Akár keylogger
+
+#### pszichológiai támadás
+
+1, Spam-email:
+-> célja: átverni a felhasználókat, hogy saját rendszerüket veszélyeztessék vagy kiadjanak személyes információkat.
+A felhasználó aktív részvétele szükséges
+
+2, Trójai lovak:
+A trójai ló egy olyan program, mely magukat hasznos programnak álcázzák de képesek a háttérben
+
 #### Büntető rutin szerint
-- botnet
-- adathalász
-- kémprogram
-- gyökércsomagok (rootkit)
+Büntető rutin: tevékenységek, melyek végrehajtódnak a fertőzött rendszeren
+A kártékony programoknak általában van bünteti rutinjuk, de vannak olyanak is amelyeknek nincs és céljük csak a terjedés
+
+- 1, Rendszer károsítás
+	- Adatok megsemmisítése:
+		- pl 1998 Csernobil vírus: Windows 98 és 98-at támadva, az indítási feltétel teljesülésekor törli az adatokat a merevlemezről => kárt okozva a fájlrendszerben
+		- pl 2001 Klez mass-levelező féreg: Windows 98 és XP. Másolatokat készít és küld önmagáról a címtárban lévő email címekre. A merevlemezen lévő antivírus programot és fájlokat törli.
+	- Ransomware:
+		- Lezárja a felhasználó fájljait, blokkolja az áldozat hozzáférését a számítógéphez, az okozott károk visszafordításáért minden esetben váltságdíjat követel, képesek lehetnek az áldozat érzékeny személyes adatainak megszerzésére (pl jelszavak), védelmi szoftverek (pl antivírusok) leállítására, és más kéretlen tevékenységekre
+			- gyakran drive-by-downloads során terjed
+		- Ransomware példák
+			- **Wannacry féreg**: 2017 május: Windows operációs rendszer EternalBlue biztonsági résén keresztül támad. Titkosítja az adatokat, Bitcoin-ban kéri a váltságdíjat. Shadowbrokers hackercsoport csinálta. Microsoft MS17-010 javítócsomag részeként javította. Első jelek szerint spear-phishing kampányra utalnak, amelyben JavaScript és Powershell kódot alkalmazó makrókkal ellátott MS Office dokumentumot terjesztenek csatolmányként.
+			- Petya: 2016 március: támadó egy hitelesnek tűnő emailt küld, ami állásra való jelentkezésnek tűnik. -> Ez az önéletrajz Ransomware, ez azonnal tönkreteszi a bootrekordot és kikényszeríti az összeomlást. Az újrainduláskor egy üzenet jelenik meg, maley szerint "hibajavításra" van szükség -> ez a hibajavítás titkosítja a merevelemezt -> TOR-on keresztül váltságdíjat követel
+		- Ransomware fajtái:
+			- 1, Fájltitkosító ransomware: gyakran trójai vírusok, email mellékletek, népszerű programok sebezhetőségeit kihasználva terjed és a rendszerbe jutva gyors sebességgel megkeresi és TITKOSÍTJA A SZEMÉLYES FÁJLOKAT.
+			- 2, Nem titkosító: A TELJES RENDSZERT LEZÁRJA. Valamilyen bűnüldöző hatóság üzenetének adja ki magát (fbi, cia...) és a számítógépen lévő illegális fájlokta megkeresi (pl torrentezett fájlok) és ezeket mint "bizonyíték" sorolja fel. Azt mondja a felhasználónak, hogy ha nem fizeti ki követelt büntetést akkor az áldozat börtönbe is kerülhet
+			- 3, Böngészőlezáró: Javascript segítségével blokkolja a felhasználó böngészőjét, és figyelmeztető üzenetet jelenít meg. Illegális tevékenységgel gyanusítja a felhasználót és börtönbüntetéssel fenyegetőzik, ha nem fizeti ki a felhasználó a "büntetést".
+	- Fizikai, hardver, szintű sérülés: a büntető rutin fizikai eszközöket károsít meg
+		- pl Csernobil vírus: nem csak adatokat károsít, hanem megpróbálja újraírni a BIOS kódot. => használhatatlanná teszi a rendszert ameddig a BIOS chip nincs újraprogramozva vagy kicserélve
+		- pl: Stuxnet => Uránium finomító gyár a célpont és a rendszert kódját módosítva, a berendezés meghibásodását eredményezi.
+	- Logikai bomba: olyan büntető rutin, amely egy adott feltétel teljesülésével vagy valamely esemény bekövetekeztével "robban" -> aka hajtja végre a rutinját.
+		- **indíték**: bizonyos fájlok megléte vagy hiánya, valamely dátum vagy a hét valamely napjának bekövetkezte, vagy egy szoftver verrzió konfigurálása, vagy valamely speciális felasználó belépése stb.
+		- **"robbanás"**: adatok vagy teljes fájlok módosítása vagy törlése, rendszer leállása, illetve más károk okozása
+
+- 2, Támadó ügynök
+	- A támadó módosítja úgy a rendszert, hogy a támadó irányítása alá tudja venni, használhassa az erőforrásait
+	- Ilyen módon megfertőzött gépek zombie gépeknek nevezzük -> ezek a zombie gépek összekötött, egymüttműködő hálózatát pedig botnet-nek nevezzük
+	- => Ilyen módon a rendszer INTEGRITÁSA és RENDELKEZÉSRE ÁLLÁSA SÉRÜL
+	- A támadó miután megszerezte ezeket a zombie-kat a következő tevékenységekre használhatja fel:
+		- DDOS (Distributed denial-of-service) támadás (elosztott szolgáltatásmegtagadással járó támadás): A DDoS támadás számítógépes rendsazerekre vagy azok hálózatára irányul, azzal a céllal, hogy azok szolgáltatását teljesen vagy részlegesen megbénítse, eltérítse a helyes működés módjától.
+		- spam-ek küldése: botnet - zombik ezrei - segítségével komoly mennyiségű kéretlen e-mailt lehet kiküldeni.
+		- forgalomfigyelés: zombikat a hálózati forgalom megfigyelésére is használhatjuk. Figyelik a rajtuk átmenő ÉRDEKSE NYÍLT ÜZENETEKET. Érzékeny információk megszerzése a cél (pl. felhasználói nevek és jelszavak)
+		- keylogging (billentyűzet megfigyelés): A fertőzött gépek figyelik a billentyűzet hasznlatát és kinyerik az érzékeny adatokat.
+		- Kártékony programok (malware-ek) terjesztése: Botnetek alkalmasak új botok terjesztésére, melyek képesek valamely új fájl HTTP-n, FTP-n keresztül történő letöltésére, majd futtatására.
+		- Adware (reklámok elhelyezése): botnet-ek alkalmasak pénzszerzésre is. A támadók a zombi gépekkel olyan oldalakat látogatnak meg, amelyek hirdetések szerepelnek. A cégek fizetnek a hirdetés megtekintéséért és rájuk való kattintásért.
+			- Fejlett váltózat: a bot eltéríti a böngésző kezdőoldalát, így minden egyes alkalommal, ha böngészőt megnyitják, gyűjtik a látogatottságot, klikkeket.
+		- Online szavazások, játékok manipulálása
+		- Crypto bányászat
+
+- 3, Információszerzés:
+	- A kártékony programok, a fertőzött gépeken tárolt adatokat gyűjtik össze. ==> adatok BIZALMASSÁGÁT támadja.
+
+Kategóriái:
+- Hitelesítési adatok (credential) ellopása, billentyűzetfigyelés (keylogger), kémprogramok:
+	- keylogger összegyűtji a a billentyűlenyomásokat, hogy a támadó érzékeny adatokat szerezzen be. => "ezek célja, hogy megszerezzék a hitelesítési adatok amikor a felhasználó beírja azokat"
+	- arra válaszként a fejlesztők grafikus appletek hoztak létre (ezeken lehet grafikusan megadni a jelszót) ==> erre válaszul a támadók általánosabb kémprogram büntető rutint használatát vezették be:
+		- böngésző előzmények figyelése, weboldalak eltérítése <- ezekkel képesek a grafikus appletekbe bevitt információt is megszerezni
+- Adathalászat, Személyazonosság ellopása
+	- a felhasználó adatainak megszerzésére irányuló másik megoldás, egy a támadó által kontrollált web oldalra mutató link elhelyezése egy kéretlen e-mailben
+	- adathalászat: pszichológiai támadással kihasználják a felhasználók bizalmát úgy, hogy valamely megbízható felet személyesítenek meg.
+- Felderítés, kémkedés:
+	- A támadó bizonyos ("specfikis") típusú információt szeretne megtudni
+	- pl Operation Aura: 2009: trójait használt, hogy hozzáférjen (esetlegesen módosítsa is) high tech és biztonság cégek forráskódját.
+	- pl Stuxnet féreg 2010ben: összegyűjtött számos hardver és szoftver konfigurációs részletet, hogy meghatározza hogy tudná-e a célpontot támadni
+	- => célzott adathalászat (spear-phishing attack):
+		- leveket küldenek egy olyan cég/személy nevében, akiben megbíznak (a támadók tanulmányozzák a célpontokat és csak limit pl 5-10 embernek küldik el a az adathalász levelet). Nagyon testreszabott levelet készítenek, amely az érintett célpontok számár relevánsnak tűnhet. => támadó specifikusan azt a személyt vagy céget akarja támadni
+		- ipari kémkedést végeznek vagy más felderítéseket végeznek.
+
+- 4, Lopakodás
+	- A kártékony programok azon rutinja, melyekkel elrejtik jelenlétüket és hozzáférésüket a fertőzött gépeken
+	- => ez a rutin a renszer INTEGRITÁSÁT célozza.
+
+Kategóriái:
+- Hátsóajtó: Program titkos belépési pontja, ennek ismeretével tud a kártékony program átlépni a rendszer biztonsági hitelesítésén, ezzel hozzáférést kapva a renszerhez
+	- Ezt a hátsóajtót lehet, hogy csak fejlesztők hagyták benne tesztelés miatt, de "nem megfelelően lett kezelve"...
+- Gyökércsomag (Rootkit): egy programcsomag, mely installálása után fedett hozzáférést biztosít, tart fent a már fertőzött géphez adminisztrátori (ROOT) jogosultsággal. => hátsóajtó hozzáférést biztosítanak trójaiak számára (?). Az operációs rendszer valamennyi funkciójához és szolgáltatásához hozzáférést ad. A támadónak adminisztrátori jogosultsága van, vagyis teljes kontrollja van a rendszer felett. Felrakhat, módosíthat programokat. Fájlokat processzeket monitorozhat. ==> A gyökércsomag elrejti ezeket a mechanizmusokat.
+
+A gyökércsomag jellemzői:
+- perzisztens: a gyökércsomag perzisztens helyen (pl registry) tárol kódot és a kódot a felhasználó részvétele nélkül futtatja le.
+- memória alapú: nincs perzisztens kód, tehát újraindítást nem éli túl. Mivel csak a memóriában van, nehezebb detektálni.
+- Felhasználói (user) módú: Felhasználói szinten működik az operációs rendszerben. Lehallgatja az API hívásokat és módosítja a kapott választ.
+- Kernel módú rootkit: A gyökércsomag úgy rejti el jelenlétét, hogy módosítja a kernelt.
+	- megj: a kernel az operációs rendszer magja, amely felelős a hardver erőforrásainak kezeléséért (beleértve a memóriát és a processzort is)
+	- megj: első generációs rootkitek voltak a felhasználói módú rootkitek, de ezeket a változtatásokat detektálni lehetett kernel kódokkal.
+	- ==> erre adnak megoldást a kernel szintű rootkitek TODO
+
+
+megj: biztonsági intézkedések:
+- megelőzés: vagyis ne engedjük, hogy a kártékony program a rendszerünkbe jusson. Ha bejutott blokkoljuk, hogy ne tudjon kárt tenni.
+- A pszicológiai támadás megokozható: felhasználói felvilágosítással és oktatással.
+többi 71. oldaltól
+
 ## Algoritmikus védelem eszközei:
 ## titkosítás
 [[titkosítások.pdf]]
@@ -220,7 +342,6 @@ A titkosító és a visszafejtő kulcsok, **megegyeznek** vagy a **visszafejtő 
 ![[Pasted image 20250528102528.png]]
 
 ### Asszimmetrikus titkosítás
-
 ![[Pasted image 20250528102420.png]]
 ![[Pasted image 20250528102545.png]]
 ![[Pasted image 20250528102609.png]]
@@ -263,20 +384,44 @@ Hash függvény tulajdonság:
 
 ### AES titkosítás
 (Advanced Encryption Standard)
-Szimmetrikus titkosítási séma, vagyis a titkosító és a visszafejtő kulcs egyezik egymással. ... ?
+Szimmetrikus titkosítási séma, vagyis ugyanazzal a kulcssal történik a titkosítás és a visszafejtés is.
 
 ![[Pasted image 20250527220148.png]]
 ![[Pasted image 20250527220228.png]]
 
-k a kulcs
+k a kulcshosszat jelöli, ami lehet 128, 192 vagy 256.
 
-128bit (16 byte) információt tudunk titkosítani ezen algoritmussal
+(megj: ezek alapján hívjuk az algoritmust AES-128-nak, AES-198-nek vagy AES-256-nak)
 
-ezen 16 byte információt feloszjtuk egy 4x4-es gridbe
+Ez a kulcs határozza meg egyben a titkosítás során használt körök számát is. (lásd fent)
+
+Az információkat  16 byte-os (128 bites) blokkokra osztva tudjuk titkosítani ezen algoritmussal ==> ezen 16 byte információt feloszjtuk egy 4x4-es gridbe
+
+A 4x4-es grid egy byte mátrixot határoz meg (amit másnéven state-nek is nevezünk)
 
 Az AES titkosítási folyamata a következő módon néz ki:
 
 ![[Pasted image 20250527220412.png]]
+
+Lépések kifejtve:
+- initial round (előkészítés):
+	- AddRoundKey: Bemeneti blokkot össze XOR-ozzuk a kezdő kulcsban szármatatott első körkulccsal.
+- Fő körök (ábrán ez "9 rounds"-al van jelölve):
+	- SubBytes: a "state"-ben (4x4-es grid) eltárolt byte-okat a behelyettesítési táblázat (un S-Box, substitution box) felhasználásval kicserél egy másik byte értékre 
+	- ShiftRows:
+		- második sor 1 byte-al rotálja balra
+		- harmadik sort: 2 byte-al rotálja balra
+		- negyedik (utolsó) sort: 3 byte-al rotálja balra
+	- MixColumns
+	- AddRoundKey
+- Final Round (utolsó kör):
+	- SubBytes
+	- ShiftRows
+	- AddRoundKey
+
+
+AES visszafejtése: ugyanezeket a lépéseket hajtjuk végre fordított sorrendben, minden művelete INVERZÉT alkalmazva
+
 ### RSA titkosítás
 Asszimmetrikus titkosítási séma, vagyis a két kulcs nem kapható meg egymásból polinomiális időben
 [[rsa.pdf]]
