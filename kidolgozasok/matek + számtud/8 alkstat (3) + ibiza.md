@@ -183,6 +183,29 @@ APT: Advanced Persistant Threat: FEJLETT PERZISZTENS FENYEGETÉS:
 
 ### Kártékony programok osztályozásuk terjedési módjuk és büntető rutinjuk szerint
 
+SUM:
+terjedés szerint:
+- vírus
+- féreg
+- pszichológiai
+	- spam email
+	- trójai
+
+bünteti rutin szerint:
+- rendszer károsítás
+	- adatok megsemmisítése
+	- ransomware
+	- Fizikai, hardver, szintű sérülés
+	- logkai bomba ?
+- támadó ügynök
+- információ szerzés
+	- hitelesítési adatok
+	- adathalászat, személyazonosság ellopása
+	- felderítés, kémkedés
+- lopakodás
+	- hátsóajtó (backdoor)
+	- rootkit (gyökércsomag)
+
 ### Terjedési módjuk szerint: 
 ##### Vírus
 -> Program, amely saját másolatait helyezi el (megfertőzi) más, végrehajtható programokban vagy dokumentumokban.
@@ -246,7 +269,7 @@ Clickjacking:
 -> A támadó célja, hogy összegyűjtsön a fertőzött felhasználóktól klikkeket.
 "akaratlan lájkolás"-> a böngészőben a kattintást átirányítja a támadó számára ideális helyre. Akár keylogger
 
-#### pszichológiai támadás
+#### Pszichológiai támadás
 
 1, Spam-email:
 -> célja: átverni a felhasználókat, hogy saját rendszerüket veszélyeztessék vagy kiadjanak személyes információkat.
@@ -367,14 +390,14 @@ A titkosító és a visszafejtő kulcsok, **megegyeznek** vagy a **visszafejtő 
 
 Asszimmetrikus és szimmetrikus titkosítási sémák összehasonlítása:
 ![[Pasted image 20250528102451.png]]
-## digitális aláírás
+## Digitális aláírás
 [[ibiza_hash_aláírás.pdf]]
 
 A digitális aláírás használatával képesek vagyunk például egy dokumentum hitelességét és letagadhatatlanságát biztosítani.
 ![[Pasted image 20250528105358.png]]
 ![[Pasted image 20250528112516.png]]
 
-## hash függvények
+## Hash függvények
 [[ibiza_hash_aláírás.pdf]]
 
 Tetszőleges véges hosszú üzenethez egy n hosszú üzenetet rendelünk.
