@@ -7,7 +7,6 @@ Az informatikai biztonság fogalma, legfontosabb biztonsági célok. Fizikai vé
 # alkstat (3)
 [[10 - StatSample10.pdf]]
 
-
 ### Statisztikai minta
 ![[Pasted image 20250319230957.png]]
 ![[Pasted image 20250526184931.png]]
@@ -112,7 +111,7 @@ CIA hármas + AA: (**BSR**)
 ##### A különböző biztonsági célok közötti kapcsolat:
 ![[Pasted image 20250528092729.png]]
 
-megj: ahonnan a nyíl mutat az a dependency (amitől valami függ vmi), és ahova mutat az lesz a depdendant (vagyis ami függ a dependency-től)
+megj: ahonnan a nyíl mutat az a dependency (amitől valami függ vmi), és ahova mutat az lesz a dependant (vagyis ami függ a dependency-től)
 
 1, A **bizalmasság (confidentiality) függ a sértetlenségtől (integrity)**: mivel ha egy rendszer sértetlensége nem áll fenn, akkor nem biztosítható a rendszerben eltárolt adatok és a rendszerelemek bizalmassága.
 
@@ -126,7 +125,7 @@ Naivan: ha feltörik az adatbázist és kileakelik a jelszavakat akkor bárki be
 
 Naivan: ha kikerül a jelszó és azzal valaki betud lépni akkor a rendszer lehet nem lesz elérhető (valaki leállítja), vagy a nyomonkövethetőséget biztosító mechanizmusokat leállíthatja/kikerülheti (pl logging, audit naplók stb)
 
-4, **A rendelkezésre állás (availability) és a nyomonkövethetőség (accountability) függ sértetlenségtől (integrity)**, mivel ha a rendszer sértetlensége sérült, akkor a rendszer rendelkezésre állását és nyomonkövethetőségét biztosító mechanizmusok és sérülhettek 
+4, **A rendelkezésre állás (availability) és a nyomonkövethetőség (accountability) függ sértetlenségtől (integrity)**, mivel ha a rendszer sértetlensége sérült, akkor a rendszer rendelkezésre állását és nyomonkövethetőségét biztosító mechanizmusok is sérülhettek 
 
 (megj: továbbá minden függ az assurance-től (de szerintem ez benne van az assurance fogalmában is)
 
@@ -144,7 +143,7 @@ A fizikai védelem feladata azon fizikai erőforrások védelme, melyek az adat
 
 #### A fizikai védelem kategóriái:
 ##### Természeti csapások
-Tornádó és földrengés *lehet* nem jó a fizikai infrastruktúnák....
+Tornádó és földrengés *lehet* nem jó a fizikai infrastruktrúnák....
 Megj: A diák csak kontextként vannak ennyi biztos nem kell... 
 
 ![[Pasted image 20250528101132.png]]
@@ -169,16 +168,26 @@ Emberi fenyegetések:
 
 Fogalma:
 ![[Pasted image 20250527203130.png]]
+![[Pasted image 20250529134905.png]]
+Támadói eszközrendszer (attack toolkit):
+-> mostanra a kártékony programok terjedési módok és bünteti rutinok széles skálájával rendelkeznek.
+==> Mivel az a céljuk, hogy maximalizálják a fertőzés sebességét, ezért többféle terjedési módot és bünteti rutint is alkalmaznak. !!
+
+
+APT: Advanced Persistant Threat: FEJLETT PERZISZTENS FENYEGETÉS:
+-> kiberbűnözés, amely üzleti és politikai célpontokat céloznak meg, többféle behatoló technológia és kártékony program alkalmazásával.
+
+-> FEJLETT: A támadók számos eszközt használnak fel céljuk eléréséhez.
+-> PERZISZTENS: A támadók egy jól meghatározott céllal tevékenykednek, és nem véletlenszerű találgatás során próbálnak rájönni, hogy milyen sebezhetőségeket tudnak kihasználni, hanem már felkészülten, alapos felderítőmunka után lépnek akcióba. Ameddig el nem érik a céljukat, nem hagyják el a rendszert. Gondoskodnak arról, hogy HOZZÁFÉRÉSÜK FENNTARTHATÓ legyen.
+-> FENYEGETÉS: célzott, irányított és komplex akciókról beszélünk, amelyek komoly fenyegetést jelenthetnek az informatikai rendszerekre és az adatokra. 
+
 ### Kártékony programok osztályozásuk terjedési módjuk és büntető rutinjuk szerint
 
-TODO: APT: Fejlesztett perzisztens fenyegetés
-
-TODO példák apt-re
 ### Terjedési módjuk szerint: 
 ##### Vírus
 -> Program, amely saját másolatait helyezi el (megfertőzi) más, végrehajtható programokban vagy dokumentumokban.
 
-A vírus kód megfertőzhet alkalmazásokat, vagy rendszerfájlokat, vagy programkódokat, melyeket rendszerbetöltnél futtat a rendszer.
+A vírus kód megfertőzhet alkalmazásokat, vagy rendszerfájlokat, vagy programkódokat, melyeket rendszer betöltésnél futtat a rendszer.
 
 Megj: mostanában script kód formájában gyakoriak, melyek pl Microsoft Word dokumentumok, Excel táblá, vagy Adobe PDF dokumentumok aktív tartalmát adják.
 
@@ -195,11 +204,13 @@ A vírus kód lefutásával valamilyen kárt okoz, pl. törli az adatokat, progr
 	- Hozzáfűződő (append): az alkalmazások végéhez fűződnek, elhelyeznek azonban a program elején egy kódot, hogy az alkalmazás indulásakor előbb ők töltődjenek be
 	- felülírő (replace) vírusokat: az alkalmazás elejét írják felül saját kódjukkal, így a fertőzött állomány adatot veszít, az eredeti állapot nem állítható helyre.
 	- => amennyiben egy fertőzött fájlt elindítunk, a vírus betöltődik a memóriába és megfertőzi az összes többi elindított programokat
-- MACROVÍRUSOK: TODO
+- MACROVÍRUSOK: elsősorban makrókat támogató dokumentum szerkesztő programokat támadnak meg (word, excel), általuk készített dokumentumokkal terjednek. => Terjedésükhöz elegendő egy fertőzött állomány megnyitása
+	- ide sorolhatóak a levelező vírusok is
 - ÖSSZETETT VÍRUSOK: többféle módon, többféle állományt képesek megfertőzni (?)
 
-##### Vírusok csoportosítási rejtezkedési stratégiájuk szerint
-
+##### Vírusok csoportosítási rejtezkedési stratégiájuk szerint:
+- Titkosított vírus: titkosítással rejti el tartalmát. Az egyik vírusrész egy véletlen titkosító kulcsot generál és titkosítja a vírust.
+- Lopakodó vírus: antivirus programot és az operációs rendszert megkerülve a gép memóriájába maradva, a fájl méreteit, az operációs rendszer jellemzőit és a könyvtár struktúráját megváltoztatják.
 
 #### Worm (férgek)
 -> Sebezhetőség kihasználása
@@ -242,7 +253,15 @@ Clickjacking:
 A felhasználó aktív részvétele szükséges
 
 2, Trójai lovak:
-A trójai ló egy olyan program, mely magukat hasznos programnak álcázzák de képesek a háttérben
+A trójai ló egy olyan program, mely magukat hasznos programnak álcázzák de képesek a háttérben segíteni egyéb ártó szándékú programok bejutását és működtetését a számítógépen.
+=> nem szokszorozódnak
+=> általában tartalmazzák a hátsó kapu telepítését: fertőzés után hozzáférést biztosít az eszközhöz
+
+
+3 db modell szerint működhetnek a trójai lovak:
+- az eredeti program továbbra is folytatja eredeti funkcióját, de rajta kívül még valamilyen BÜNTETŐ RUTINt IS FUTTAT.
+- A program továbbra is folytatja eredeti funkcióját de MÓDOSÍTJA ANNAK MŰKÖDÉSÉT, hogy végrehajtsa a büntető rutint
+- TELJES MÉRTÉKBEN LECSERÉLI az eredeti program funckióját
 
 #### Büntető rutin szerint
 Büntető rutin: tevékenységek, melyek végrehajtódnak a fertőzött rendszeren
@@ -324,7 +343,7 @@ A gyökércsomag jellemzői:
 
 megj: biztonsági intézkedések:
 - megelőzés: vagyis ne engedjük, hogy a kártékony program a rendszerünkbe jusson. Ha bejutott blokkoljuk, hogy ne tudjon kárt tenni.
-- A pszicológiai támadás megokozható: felhasználói felvilágosítással és oktatással.
+- A pszicológiai támadás megakadályozható: felhasználói felvilágosítással és oktatással.
 többi 71. oldaltól
 
 ## Algoritmikus védelem eszközei:
@@ -355,19 +374,18 @@ A digitális aláírás használatával képesek vagyunk például egy dokumentu
 ![[Pasted image 20250528105358.png]]
 ![[Pasted image 20250528112516.png]]
 
-
 ## hash függvények
 [[ibiza_hash_aláírás.pdf]]
 
 Tetszőleges véges hosszú üzenethez egy n hosszú üzenetet rendelünk.
 
-=> A hash függvény nem injektív függvény, vagyis lehet, hogy 
+=> A hash függvény nem injektív függvény, vagyis matematikailag lehetséges, hogy ugyanarra a bemenetre ugyanazt a hash függvényt kapjuk (de erre nincsen polinomiális algoritmusunk). 
 
 A hash függvények képes teljesíteni számunkra az adatintegritást (CIA-ból I), mivel egy adott adatok halmazról elkészített hash értéket elküldjük az adathalmazzal együtt, és az adathalmaz fogadója képes a hash függvény segítségével ellenőrzni, hogy a megkapott adathalmaz hash érték tényleg megegyezik-e azzal amit megkapott.
 
 másnéven a hash értéket hívjhatjuk: LENYOMAT / FINGERPRINT
 
-Lavina-hatás
+Lavina-hatás: 1 bit változás a hashfüggvény bemenetében NAGY változást eredményez a hash érték kimenetében. 
 
 Hash függvény tulajdonság: 
 - **Első ősképellenálló**
@@ -423,7 +441,7 @@ Lépések kifejtve:
 AES visszafejtése: ugyanezeket a lépéseket hajtjuk végre fordított sorrendben, minden művelete INVERZÉT alkalmazva
 
 ### RSA titkosítás
-Asszimmetrikus titkosítási séma, vagyis a két kulcs nem kapható meg egymásból polinomiális időben
+Asszimmetrikus titkosítási séma, vagyis a titkosító és a visszafejtő kulcs nem kapható meg egymásból polinomiális időben
 [[rsa.pdf]]
 (Rivest-Shamir-Adleman)
 jellemzői:
@@ -504,4 +522,4 @@ egyébként hamis
 -> **RSA titkosítási séma által használt algoritmusok:**
 ![[Pasted image 20250527224847.png]]
 ![[Pasted image 20250527224906.png]]
-
+A visszafejtő kulcs (SK) kiszámítása a titkosító kulcs (PK) ismeretében nehéz -> prímfaktorizáció
