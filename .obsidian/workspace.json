@@ -43,8 +43,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,8 +185,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66c98d14c1cba2b8",
+  "active": "175f161cb965d01b",
   "lastOpenFiles": [
+    "zzz pasted images/Pasted image 20250530141053.png",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
     "kidolgozasok/matek + számtud/mas/4. Matek tétel - Matviz, Mestint.pdf",
@@ -207,7 +207,6 @@
     "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
     "zzz pasted images/Pasted image 20250530143808.png",
     "zzz pasted images/Pasted image 20250530141144.png",
-    "zzz pasted images/Pasted image 20250530141053.png",
     "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf",
     "zzz pasted images/Pasted image 20250530073218.png",
     "zzz pasted images/Pasted image 20250530084744.png",
