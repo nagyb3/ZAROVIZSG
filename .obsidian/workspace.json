@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "175f161cb965d01b",
+            "id": "e2986968cd600ded",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "1. Matek Tétel - Statisztika, Adatszerkezetek"
+            }
+          },
+          {
+            "id": "fb607aa766efe921",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,19 +34,21 @@
             }
           },
           {
-            "id": "ee6b8b5527b4217b",
+            "id": "9e8c3388bbf4001c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "zzz pasted images/Pasted image 20250530141053.png"
+                "file": "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250530141053"
+              "icon": "lucide-file",
+              "title": "2. alkstat (2) + adatszerk (2)"
             }
           },
           {
-            "id": "dfd0704a08269701",
+            "id": "66111d14496d805e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -43,7 +57,8 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,11 +200,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "175f161cb965d01b",
+  "active": "9e8c3388bbf4001c",
   "lastOpenFiles": [
-    "zzz pasted images/Pasted image 20250530141053.png",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
     "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
+    "zzz pasted images/Pasted image 20250530141053.png",
     "kidolgozasok/matek + számtud/mas/4. Matek tétel - Matviz, Mestint.pdf",
     "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
     "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
@@ -198,16 +216,13 @@
     "zzz pasted images/Pasted image 20250530163534.png",
     "kidolgozasok/Informatika ismeretek/mas/8. Infó tétel - Hálózatok.pdf",
     "z tananyagok paste/alkstat/11 - Hypotheses11.pdf",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
     "kidolgozasok/ZV-10-4.pdf",
     "kidolgozasok/matek + számtud/mas/2. Matek tétel - Valség, Algoritmusok.pdf",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
     "kidolgozasok/matek + számtud/mas/Matek_6.pdf",
     "zzz pasted images/Pasted image 20250530144221.png",
-    "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
     "zzz pasted images/Pasted image 20250530143808.png",
     "zzz pasted images/Pasted image 20250530141144.png",
-    "kidolgozasok/matek + számtud/mas/1. Matek Tétel - Statisztika, Adatszerkezetek.pdf",
     "zzz pasted images/Pasted image 20250530073218.png",
     "zzz pasted images/Pasted image 20250530084744.png",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",

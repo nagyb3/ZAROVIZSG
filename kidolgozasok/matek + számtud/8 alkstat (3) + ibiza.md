@@ -27,7 +27,7 @@ Definíció: A T statisztikát a t paraméter torzítatlan becslésének nevezz�
 
 Naivan: T statisztika: egy mintából számított érték
 
-Kontextus Maximum Likelihood becsléshez (ML-becslés): A maximum likelihood becslés az egyik legfontosabb és legtöbbet használt BECSLÉSI MÓDSZER a statiszitkában.
+Kontextus: Maximum Likelihood becsléshez (ML-becslés): A maximum likelihood becslés az egyik legfontosabb és legtöbbet használt BECSLÉSI MÓDSZER a statiszitkában.
 
 ![[Pasted image 20250526184949.png]]
 
@@ -76,9 +76,7 @@ Az u-próba során úgy vesszük, hogy a vizsgált MINTA egy normál eloszlásb�
 => akkor tudjuk alkalmazni, ha a várhatóérték nem ismert, de a szórásanégyzet, vagyis a variancia a sokaságnak ismert.
 
 A próba statisztika a próba során a következő:
-$$
-u = \frac{\overline{X} - m_0}{\sigma / \sqrt{n}}
-$$
+TODO
 
 Az u-próba során meghatározunk egy nullhipotést. (m_0 a sokasági átlag)
 $$
