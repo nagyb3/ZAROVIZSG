@@ -6,17 +6,15 @@ Az informatikai biztonság fogalma, legfontosabb biztonsági célok. Fizikai vé
 
 # alkstat (3)
 [[10 - StatSample10.pdf]]
-
 ### Statisztikai minta
 ![[Pasted image 20250319230957.png]]
 ![[Pasted image 20250526184931.png]]
 
+A minta fontossága: van egy nagyon nagy sokaság (pl az összes magyar egyetemista), de mi nem tudjuk az egész sokaságot megvizsgálni. Ezért mi csak egy kis mintát nézünk meg belőle, és abból akarunk következtetéseket tenni a teljes sokaság tulajdonságaira.
+
 naivan: egy valószínűségi változót megfigyelünk n-szer, egymástól függetlenül. Ezek lesznek X1, X2, ..., Xn a megfigyelés eredményei. => Ezek megfigyelési eredmények lesznek a minta
 
-A gyakorlatban mindig minta realizációt figyelünk meg ??
-
-Minta realizáció ???
-
+A gyakorlatban mindig minta realizációt figyelünk meg. A minta realizáció lesz valódi, konkrét adat, amiket a gyakorlatban megfigyelünk.
 ### Becslések
 (Fazekas I 117. oldal)
 
@@ -25,6 +23,11 @@ CÉLJA: a becslések segítségével tudunk egy minta alapján a fontosabb stati
 A minta átlaga a sokasági átlag körül fog ingadozni.
 A minta átlaga jele: μ (mű)
 
+Definíció: A T statisztikát a t paraméter torzítatlan becslésének nevezzük, ha ET = t
+
+Naivan: T statisztika: egy mintából számított érték
+
+Kontextus Maximum Likelihood becsléshez (ML-becslés): A maximum likelihood becslés az egyik legfontosabb és legtöbbet használt BECSLÉSI MÓDSZER a statiszitkában.
 
 ![[Pasted image 20250526184949.png]]
 
@@ -37,8 +40,6 @@ A minta átlaga jele: μ (mű)
 (E kidolgozásból:)
 Számtani vagy aritmetikai középértéken n darab szám átlagát, azaz a számok összegének n-ed részét értjük. A számtani közepet általában A betűvel jelöljük:
 ![[Pasted image 20250526185045.png]]
-
-
 
 ### Szórás
 Fazekas I: 33. oldal
@@ -67,10 +68,35 @@ Fazekas I: 120. oldal
 
 [[11 - Hypotheses11.pdf]]
 
+A u-próba a várható értékre vonatkozó hipotézis vizsgálati módszer.
+
+Azt vizsgálja, hogy egy mintabeli átlag szignifikánsan eltér-e a populációs (másnéven sokasági) átlagtól.
+
+Az u-próba során úgy vesszük, hogy a vizsgált MINTA egy normál eloszlásból származik.
+=> akkor tudjuk alkalmazni, ha a várhatóérték nem ismert, de a szórásanégyzet, vagyis a variancia a sokaságnak ismert.
+
+A próba statisztika a próba során a következő:
+$$
+u = \frac{\overline{X} - m_0}{\sigma / \sqrt{n}}
+$$
+
+Az u-próba során meghatározunk egy nullhipotést. (m_0 a sokasági átlag)
+$$
+H_0 = m = m_0
+$$
+És ezzel szemben meghatározzuk az alternatív hipotézist (ellenhipotézist):
+$$
+H_1 = m \neq m_0
+$$
+Ha az
+$$
+H_0
+$$
+fennáll, akkor u ()
+
+
 ![[Pasted image 20250526185120.png]]
 ![[Pasted image 20250526185124.png]]
-
-Fentiben m0 jelöli a sokasági átlagot (aka mű)
 
 
 ![[Pasted image 20250526185126.png]]
@@ -262,7 +288,6 @@ A felhasználó aktív részvétele szükséges
 A trójai ló egy olyan program, mely magukat hasznos programnak álcázzák de képesek a háttérben segíteni egyéb ártó szándékú programok bejutását és működtetését a számítógépen.
 => nem szokszorozódnak
 => általában tartalmazzák a hátsó kapu telepítését: fertőzés után hozzáférést biztosít az eszközhöz
-
 
 3 db modell szerint működhetnek a trójai lovak:
 - az eredeti program továbbra is folytatja eredeti funkcióját, de rajta kívül még valamilyen BÜNTETŐ RUTINt IS FUTTAT.
