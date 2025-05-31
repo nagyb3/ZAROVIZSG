@@ -47,6 +47,8 @@ alt: [[Matek_6.pdf]]
 
 2 [[Info_2.pdf]]
 
+alt: [[2. Infó tétel - Prog Alapok.pdf]]
+
 3 [[!Info_3 OOP.pdf]]
 
 4 [[! Info_4 _OPRENDSZER.pdf]]
