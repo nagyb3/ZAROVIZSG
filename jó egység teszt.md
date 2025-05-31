@@ -1,0 +1,10 @@
+- jó egység teszt: FIRST:
+	    - Fast
+	    - Independent
+	    - Repeatable
+	    - Self-validating: logikai kimenet kell hogy legyen
+	    - Timely: -> jó időben kerüljenek megírásra == a teszteket a kód megírása előtt készítsük el
+	  - AAA minta: (also: GivenWhenThen)
+	    - Arrange -> tesztelt rendszert egy adott állapotba juttatja el
+	    - Act -> tesztelt rendszer adott funkcióját meghívja
+	    - Assert -> kimenetel ellenőrzése

@@ -4,31 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "74b40ff0f1b98eee",
+        "id": "20b8163657e87c84",
         "type": "tabs",
         "children": [
           {
-            "id": "3fb941ff0e20b394",
+            "id": "152feb8c5c3f4979",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "kidolgozasok/ZV-10-4.pdf"
+                "file": "z tananyagok paste/alkstat/Fazekas István - Alkalmazott Statisztika.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ZV-10-4"
+              "title": "Fazekas István - Alkalmazott Statisztika"
             }
           },
           {
-            "id": "079256681366c0d3",
+            "id": "24cdc4f00a4bf8e8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "zzz pasted images/Pasted image 20250528123642.png"
+                "file": "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250528123642"
+              "icon": "lucide-file",
+              "title": "2. alkstat (2) + adatszerk (2)"
             }
           }
         ],
@@ -64,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "03prog02alapfogalmak",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 415.5
   },
   "right": {
     "id": "f9353f01ba49ceb0",
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
+                "file": "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 6. módszertanok"
+              "title": "Backlinks for 6. Matek tétel - Gráfok(-), Fonya"
             }
           },
           {
@@ -124,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
+                "file": "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 6. módszertanok"
+              "title": "Outgoing links from 6. Matek tétel - Gráfok(-), Fonya"
             }
           },
           {
@@ -151,18 +153,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kidolgozasok/Informatika ismeretek/6. módszertanok.md"
+                "file": "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6. módszertanok"
+              "title": "Outline of 2. alkstat (2) + adatszerk (2)"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,52 +179,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66c98d14c1cba2b8",
+  "active": "24cdc4f00a4bf8e8",
   "lastOpenFiles": [
-    "kidolgozasok/ZV-10-4.pdf",
-    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
-    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "z tananyagok paste/alkstat/Fazekas István - Alkalmazott Statisztika.pdf",
+    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
+    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
+    "jó egység teszt.md",
+    "Pasted image 20250528173806.png",
+    "kidolgozasok/Informatika ismeretek/mas/! Info_5 SWE.pdf",
     "README.md.md",
-    "z tananyagok paste/IBIZA/rsa.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_5.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/6. Infó tétel - Szoftverfejlesztési Módszertanok.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/8. Infó tétel - Hálózatok.pdf",
     "zzz pasted images/Pasted image 20250528150222.png",
     "zzz pasted images/Pasted image 20250528150207.png",
     "zzz pasted images/Pasted image 20250528144629.png",
-    "z tananyagok paste/IBIZA/5_DES_AES.pdf",
-    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
-    "z tananyagok paste/IBIZA/ibiza_hash_aláírás.pdf",
-    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "zzz pasted images/Pasted image 20250528131209.png",
     "zzz pasted images/Pasted image 20250528131153.png",
     "zzz pasted images/Pasted image 20250528124806.png",
     "zzz pasted images/Pasted image 20250528124748.png",
     "zzz pasted images/Pasted image 20250528124156.png",
     "zzz pasted images/Pasted image 20250528123642.png",
-    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
-    "kidolgozasok/matek + számtud/mas/Matek_4.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_3.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_1.pdf",
-    "zzz pasted images/Pasted image 20250527203130.png",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
-    "kidolgozasok/Informatika ismeretek/1. adatb.md",
-    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
-    "prog2 extra 3.md",
-    "matek 2.pdf.md",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "6. Matek tétel - AlkMat, Fonya.pdf.md",
-    "kidolgozasok/Informatika ismeretek/7.  webtech.md",
-    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
-    "kidolgozasok/Informatika ismeretek/3. OOP.md",
-    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
-    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "z tananyagok paste/IBIZA/5_DES_AES.pdf",
     "logika kontext.md",
-    "kidolgozasok/matek + számtud/random/logika kontext.md",
-    "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
-    "kidolgozasok/Informatika ismeretek/2. prog1.md",
+    "kidolgozasok/matek + számtud/mas/Matek_8.pdf",
+    "kidolgozasok/matek + számtud/mas/Matek_7.pdf",
+    "kidolgozasok/matek + számtud/mas/Matek_6.pdf",
+    "kidolgozasok/matek + számtud/mas/Matek_2.pdf",
+    "kidolgozasok/Informatika ismeretek/7.  webtech.md",
+    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
+    "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
+    "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
     "MI_06.pdf.md",
-    "felveteli/felveteli README.md",
-    "Untitled.md"
+    "kidolgozasok/matek + számtud/3. kalkulus + logika.md",
+    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
+    "kidolgozasok/Informatika ismeretek/2. prog1.md",
+    "kidolgozasok/Informatika ismeretek/3. OOP.md",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "kidolgozasok/Informatika ismeretek/1. adatb.md",
+    "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
+    "prog2 extra 3.md",
+    "Untitled.md",
+    "kidolgozasok/Informatika ismeretek/2. prog1 + prog2(?).md",
+    "kidolgozasok/Informatika ismeretek/3. prog1 prog2 (OOP).md"
   ]
 }
