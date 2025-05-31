@@ -8,22 +8,71 @@ Az informatikai biztonság fogalma, legfontosabb biztonsági célok. Fizikai vé
 [[10 - StatSample10.pdf]]
 ### Statisztikai minta
 ![[Pasted image 20250319230957.png]]
-![[Pasted image 20250526184931.png]]
+! [[Pasted image 20250526184931.png]]
+5.1.1 A minta és minta realizáció
+A matematikai statisztika szemléletmódja szerint a megfigyelendő mennyiség valószínűségi változó. *(szóval amit mérni fogunk pl egy ember magassága az nem egy fix szám, hanem egy valószínűségi változó, amit bizonyos valószínűséggel különböző értékeket vehet fel.)* Jelöljük ezt a valószínűségi változót X-szel. Figyeljük meg X-et *n-szer*, egymástól függetlenül. Jelölje
+$$
+X_1, X_2 \dots X_n
+$$
+a megfigyelési eredményeket. Ezeket a megfigyelési eredményeket nevezzük mintának. Azonban
+$$
+X_1, X_2 \dots X_n-et
+$$
+sem egy szám n-esnek tekintük, hanem olyan objektumoknak, amely magába sűríti a megfigyelések eredményeként adódó összes lehetséges szám n-est. Így az
+$$
+X_1, X_2 \dots X_n
+$$
+mennyiségeket is valószínűségi változóknak tekintjük.
 
-A minta fontossága: van egy nagyon nagy sokaság (pl az összes magyar egyetemista), de mi nem tudjuk az egész sokaságot megvizsgálni. Ezért mi csak egy kis mintát nézünk meg belőle, és abból akarunk következtetéseket tenni a teljes sokaság tulajdonságaira.
+Az
+$$
+X_1, X_2 \dots X_n
+$$
+független, azonos eloszlású valószínűségi változókat MINTÁNAK nevezzük. Rögzített
+$$
+\omega \in \Omega
+$$
+esetén a
+$$
+x_1 = X_1(\omega), x_2 = X_2(\omega), \dots x_n = X_n(\omega)  
+$$
+szám n-est MINTA REALIZÁCIÓnak nevezzük. (itt omega az eseménytér)
+
+Notes
+A gyakorlatban mindig minta realizációt figyelünk meg. Ezek azonban megfigyeléssorozatonként különböznek egymástól. A minta elméleti fogalma minden lehetséges minta realizációt magába foglalja. (??)
+
+Kontext: A minta fontossága: van egy nagyon nagy sokaság (pl az összes magyar egyetemista), de mi nem tudjuk az egész sokaságot megvizsgálni. Ezért mi csak egy kis mintát nézünk meg belőle, és abból akarunk következtetéseket tenni a teljes sokaság tulajdonságaira.
 
 naivan: egy valószínűségi változót megfigyelünk n-szer, egymástól függetlenül. Ezek lesznek X1, X2, ..., Xn a megfigyelés eredményei. => Ezek megfigyelési eredmények lesznek a minta
 
 A gyakorlatban mindig minta realizációt figyelünk meg. A minta realizáció lesz valódi, konkrét adat, amiket a gyakorlatban megfigyelünk.
+
+MAGYARÁZAT EHHEZ:
+Legyen X az a valószínűségi változó, amely egy dobókocka dobásához hozzárendeli a dobókocka dobás eredményét.
+
+Tegyük fel, hogy háromszor dobunk az adott kockával, ekkor
+X_1: első dobás eredménye
+X_2: második dobás eredménye
+X_3: harmadik dobás eredménye
+
+=> ekkor X_1 .. X_n, ig mindegyik azonos eloszlású (ugyanugy a kockadobással azonos eloszlásúak) és függetlenek egymástól.
+
+Ekkor a minta realizáció lesz a konkrét megfigyelt érték, vagyis a dobások kimeneteli (magyarul milyen számokat dobtunk)
 ### Becslések
 (Fazekas I 117. oldal)
 
+A becslés egy statisztikai eljárás.
+
 CÉLJA: a becslések segítségével tudunk egy minta alapján a fontosabb statisztikai mutatókra következtetést tenni. (a teljes sokasságra tekintve)
 
-A minta átlaga a sokasági átlag körül fog ingadozni.
-A minta átlaga jele: μ (mű)
+#### Torzítatlan becslés
+(ez egy tulajdonsága lehet a becsléseknek !!)
 
-Definíció: A T statisztikát a t paraméter torzítatlan becslésének nevezzük, ha ET = t
+Definíció: A T statisztikát a t paraméter torzítatlan becslésének nevezzük, ha E(T) = t
+
+Megj: a T statisztika ebben az esetben egy valószínűségi változó (mivel minden minta realizációnál más lesz a T statisztika)
+
+Megj: a T statisztika általános módon a mintából számított függény, amit arra használunk, hogy valamilyen 
 
 Naivan: T statisztika: egy mintából számított érték
 
@@ -31,11 +80,18 @@ Kontextus: Maximum Likelihood becsléshez (ML-becslés): A maximum likelihood be
 
 ![[Pasted image 20250526184949.png]]
 
+#### (Erősen) konzisztens becslés
+(Ez is egy tulajdonsága lehet a becsléseknek)
+
+!! MINÉL NAGYOBB MINTÁRA VESSZÜK A BECSLÉST ANNÁL JOBBAN KÖZELÍTI MEG A t PARAMÉTERT
+
+DEFINITION:
+6.1.2. Definition. A Tn sorozatot a t paraméter konzisztens (erősen konzisztens) becslésének nevezzük, ha Tn → t sztochasztikusan (majdnem biztosan)
 
 ![[Pasted image 20250526185005.png]]
 
 ### Átlag
-(átlag - empirikus közép)
+empirikus közép - minta átlag
 [[10 - StatSample10.pdf]] 27. oldal
 (E kidolgozásból:)
 Számtani vagy aritmetikai középértéken n darab szám átlagát, azaz a számok összegének n-ed részét értjük. A számtani közepet általában A betűvel jelöljük:
@@ -68,12 +124,14 @@ Fazekas I: 120. oldal
 
 [[11 - Hypotheses11.pdf]]
 
+Az U próba egy paraméter próba, amelyet statisztikai hipotézisekre használunk. Az u próba az egyik legegyszerűbb próba.
+
 A u-próba a várható értékre vonatkozó hipotézis vizsgálati módszer.
 
 Azt vizsgálja, hogy egy mintabeli átlag szignifikánsan eltér-e a populációs (másnéven sokasági) átlagtól.
 
 Az u-próba során úgy vesszük, hogy a vizsgált MINTA egy normál eloszlásból származik.
-=> akkor tudjuk alkalmazni, ha a várhatóérték nem ismert, de a szórásanégyzet, vagyis a variancia a sokaságnak ismert.
+=> akkor tudjuk alkalmazni, ha a várhatóérték nem ismert, de a szórásnégyzet, vagyis a varianciája a sokaságnak ismert.
 
 A próba statisztika a próba során a következő:
 TODO
@@ -91,7 +149,6 @@ $$
 H_0
 $$
 fennáll, akkor u ()
-
 
 ![[Pasted image 20250526185120.png]]
 ![[Pasted image 20250526185124.png]]
