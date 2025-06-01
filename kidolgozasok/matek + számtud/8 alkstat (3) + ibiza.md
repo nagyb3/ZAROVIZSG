@@ -213,7 +213,7 @@ Naivan: ha kikerül a jelszó és azzal valaki betud lépni akkor a rendszer leh
 ### Fizikai védelem
 [[ibiza_fizikai_védelem.pdf]]
 
-A fizikai védelem feladata azon fizikai erőforrások védelme, melyek az adatok tárolását, feldolgozását, továbbítását biztosítják. A védelmi intézkedések többsége preventív vagy detektív. (?)
+A fizikai védelem feladata azon fizikai erőforrások védelme, melyek az adatok tárolását, feldolgozását, továbbítását biztosítják. A védelmi intézkedések többsége preventív vagy detektív. (?)
 
 **Fizikai infrastruktúra** (általános fogalom):
 - **Informatikai rendszer hardver elemei**: Adatfeldolgozó és tároló eszközök, adatátviteli és hálózati elemek és offline tároló eszközök. Ide soroljuk az informatikai rendszer dokumentációit is.
@@ -221,6 +221,10 @@ A fizikai védelem feladata azon fizikai erőforrások védelme, melyek az adat
 - **Kiszolgáló rendszerek**: Elektromos vezetékek, kommunikációs hálózatok,víz- és gázvezetékek.
 - **Személyzet**: Azon személyek, melyek az informatikai rendszer használói, fenntartói vagy működtetői.
 
+preventatív kontroll:
+- használjunk felhőt
+- legyenek tűz, víz, por érzékelők
+- UPS: uninterrupted power supply
 
 #### A fizikai védelem kategóriái:
 ##### Természeti csapások
@@ -250,7 +254,7 @@ Emberi fenyegetések:
 Fogalma:
 ![[Pasted image 20250527203130.png]]
 ![[Pasted image 20250529134905.png]]
-Támadói eszközrendszer (attack toolkit):
+TÁMADÓI ESZKÖZTÁR (attack toolkit):
 -> mostanra a kártékony programok terjedési módok és bünteti rutinok széles skálájával rendelkeznek.
 ==> Mivel az a céljuk, hogy maximalizálják a fertőzés sebességét, ezért többféle terjedési módot és bünteti rutint is alkalmaznak. !!
 
@@ -264,28 +268,29 @@ APT: Advanced Persistant Threat: FEJLETT PERZISZTENS FENYEGETÉS:
 
 ### Kártékony programok osztályozásuk terjedési módjuk és büntető rutinjuk szerint
 
-SUM:
-terjedés szerint:
-- vírus
-- féreg
-- pszichológiai
-	- spam email
-	- trójai
+kártékony programok osztályozása lerövidítva SUM:
+->TERJEDÉS SZERINT:
+- VÍRUS: Fertőzött fájl futtatása. Program, amely saját másolatait helyezi el (megfertőzi) más, végrehajtható programokban vagy dokumentumokban.
+- FÉREG (worm): 
+- PSZICHOLÓGIAI TÁMADÁS
+	- SPAM EMAIL-EK: felhasználó aktív részvétele szükséges
+	- TRÓJAI LOVAK
 
-bünteti rutin szerint:
-- rendszer károsítás
-	- adatok megsemmisítése
-	- ransomware
-	- Fizikai, hardver, szintű sérülés
+->BÜNTETŐ RUTIN SZERINT:
+- RENDSZER KÁROSÍTÁS: 
+	- ADATOK MEGSEMMISÍTÉSE
+	- RANSOMWARE: Lezárja a felhasználó fájljait, blokkolja az áldozat hozzáférését a számítógéphez, az okozott károk visszafordításáért minden esetben váltságdíjat követel, képesek lehetnek az áldozat érzékeny személyes adatainak megszerzésére (pl jelszavak), védelmi szoftverek (pl antivírusok) leállítására, és más kéretlen tevékenységekre
+	- FIZIKAI, HARDVER, SZINTŰ SÉRÜLÉS: pl stuxnet
 	- logkai bomba ?
-- támadó ügynök
-- információ szerzés
-	- hitelesítési adatok
+- TÁMADÓ ÜGYNÖK: A támadó módosítja úgy a rendszert, hogy a támadó irányítása alá tudja venni, használhassa az erőforrásait => ZOMBIE ÉS BOTNET
+- INFORMÁCIÓ SZERZÉS: fertőzött gépeken tárolt adatok összegyűjtése ()
+	- Hitelesítési adatok (credential) ellopása, billentyűzetfigyelés (keylogger), kémprogramok
 	- adathalászat, személyazonosság ellopása
 	- felderítés, kémkedés
-- lopakodás
-	- hátsóajtó (backdoor)
-	- rootkit (gyökércsomag)
+- LOPAKODÁS: A kártékony programok azon rutinja, melyekkel elrejtik jelenlétüket és hozzáférésüket a fertőzött gépeken (integritást sérti)
+	- HÁTSÓAJTÓ (backdoor): Program titkos belépési pontja, ennek ismeretével tud a kártékony program átlépni a rendszer biztonsági hitelesítésén, ezzel hozzáférést kapva a renszerhez
+	- GYÖKÉRCSOMAG (rootkit): egy programcsomag, mely installálása után fedett hozzáférést biztosít, tart fent a már fertőzött géphez adminisztrátori (ROOT) jogosultsággal. A feladata, hogy elrejtse a kártékony program jelenlétét a rendszerben.
+		- szintjei: kernel módú és felhasználói módú
 
 ### Terjedési módjuk szerint: 
 ##### Vírus
@@ -298,7 +303,6 @@ Megj: mostanában script kód formájában gyakoriak, melyek pl Microsoft Word d
 A vírus kód lefutásával valamilyen kárt okoz, pl. törli az adatokat, programokat, melyet az aktuális felhasználó jogosultsága enged.
 
 [[virusok extra]]
-
 #### Worm (férgek)
 -> Sebezhetőség kihasználása
 
