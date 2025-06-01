@@ -18,7 +18,7 @@ a megfigyelési eredményeket. Ezeket a megfigyelési eredményeket nevezzük mi
 $$
 X_1, X_2 \dots X_n-et
 $$
-sem egy szám n-esnek tekintük, hanem olyan objektumoknak, amely magába sűríti a megfigyelések eredményeként adódó összes lehetséges szám n-est. Így az
+sem egy szám n-esnek tekintjük, hanem olyan objektumoknak, amely magába sűrítik a megfigyelések eredményeként adódó összes lehetséges szám n-est. Így az
 $$
 X_1, X_2 \dots X_n
 $$
@@ -28,7 +28,7 @@ Az
 $$
 X_1, X_2 \dots X_n
 $$
-független, azonos eloszlású valószínűségi változókat MINTÁNAK nevezzük. Rögzített
+FÜGGETLEN, AZONOS ELOSZLÁSÚ VALÓSZÍNÁSÉGI VÁLTOZÓKAT MINTÁNAK (ezt nevezzük FAE mintának) nevezzük. Rögzített
 $$
 \omega \in \Omega
 $$
@@ -36,14 +36,16 @@ esetén a
 $$
 x_1 = X_1(\omega), x_2 = X_2(\omega), \dots x_n = X_n(\omega)  
 $$
-szám n-est MINTA REALIZÁCIÓnak nevezzük. (itt omega az eseménytér)
+szám n-est MINTA REALIZÁCIÓnak nevezzük. (itt nagy omega az eseménytér)
 
 Notes
-A gyakorlatban mindig minta realizációt figyelünk meg. Ezek azonban megfigyeléssorozatonként különböznek egymástól. A minta elméleti fogalma minden lehetséges minta realizációt magába foglalja. (??)
+A gyakorlatban mindig minta realizációt figyelünk meg. Ezek azonban megfigyeléssorozatonként különböznek egymástól (TODO). A minta elméleti fogalma minden lehetséges minta realizációt magába foglalja. ->
 
-Kontext: A minta fontossága: van egy nagyon nagy sokaság (pl az összes magyar egyetemista), de mi nem tudjuk az egész sokaságot megvizsgálni. Ezért mi csak egy kis mintát nézünk meg belőle, és abból akarunk következtetéseket tenni a teljes sokaság tulajdonságaira.
+Előzőhöz magarázat: amikor matemaikai szempontból tekintjük a mintát (X_1, X_2 .. X_n) akkor ezek nem konkrét számokat jelölnek, hanem n darab valószínűségi változóból álló rendszert. Ezek nem konkrét értékek, hanem lehetséges értékeket modellező változók.
 
-naivan: egy valószínűségi változót megfigyelünk n-szer, egymástól függetlenül. Ezek lesznek X1, X2, ..., Xn a megfigyelés eredményei. => Ezek megfigyelési eredmények lesznek a minta
+Kontext: A minta fontossága: van egy nagyon nagy sokaság (pl az összes magyar egyetemista), de mi nem tudjuk az egész sokaságot megvizsgálni. A populáció megszámlálható, de túl nagy ehhez, hogy mindenet megvizsgáljuk. Ezért mi csak egy kis mintát nézünk meg belőle, és ABBÓL AKARUNK KÖVETKEZTETÉSEKET TENNI A TELJES SOKASÁG TULAJDONSÁGAIRA.
+
+naivan: egy valószínűségi változót megfigyelünk n-szer, egymástól függetlenül. Ezek lesznek X_1, X_2, ..., X_n a megfigyelés eredményei. => Ezek megfigyelési eredmények lesznek a minta
 
 A gyakorlatban mindig minta realizációt figyelünk meg. A minta realizáció lesz valódi, konkrét adat, amiket a gyakorlatban megfigyelünk.
 
@@ -57,28 +59,23 @@ X_3: harmadik dobás eredménye
 
 => ekkor X_1 .. X_n, ig mindegyik azonos eloszlású (ugyanugy a kockadobással azonos eloszlásúak) és függetlenek egymástól.
 
-Ekkor a minta realizáció lesz a konkrét megfigyelt érték, vagyis a dobások kimeneteli (magyarul milyen számokat dobtunk)
+Ekkor a minta realizáció lesz a konkrét megfigyelt érték, vagyis a dobások kimeneteli (magyarul milyen számokat dobtunk konkrétan a dobókockánkkal)
 ### Becslések
 (Fazekas I 117. oldal)
 
-A becslés egy statisztikai eljárás.
+A becslés egy statisztikai eljárás, amely segítségével a minta alapján tudunk következtetéseket tenni a populációra. (pl átlagot, szórást stb)
 
-CÉLJA: a becslések segítségével tudunk egy minta alapján a fontosabb statisztikai mutatókra következtetést tenni. (a teljes sokasságra tekintve)
-
-#### Torzítatlan becslés
+#### Becslések lehetséges tulajdonságai
+##### Torzítatlan becslés
 (ez egy tulajdonsága lehet a becsléseknek !!)
 
-Definíció: A T statisztikát a t paraméter torzítatlan becslésének nevezzük, ha E(T) = t
+A torzítlanság azt mondja meg, hogy a becslés a becsült érték körül ingadozik.
 
-Megj: a T statisztika ebben az esetben egy valószínűségi változó (mivel minden minta realizációnál más lesz a T statisztika)
+DEFINÍCIÓ: A T statisztikát a t paraméter torzítatlan becslésének nevezzük, ha E(T) = t
 
-Megj: a T statisztika általános módon a mintából számított függény, amit arra használunk, hogy valamilyen 
+A T statisztika általános módon a mintából számított érték, ami a minta valamilyen tulajdonságát írja le (például a minta átlagot vagy a minta szórását)
 
-Naivan: T statisztika: egy mintából számított érték
-
-Kontextus: Maximum Likelihood becsléshez (ML-becslés): A maximum likelihood becslés az egyik legfontosabb és legtöbbet használt BECSLÉSI MÓDSZER a statiszitkában.
-
-![[Pasted image 20250526184949.png]]
+Megj: a T statisztika ebben az esetben egy valószínűségi változó (mivel minden minta realizációnál más lesz a T statisztika értéke, gondoljunk bele, ha más mintát veszünk egy populációbal akkor annak más lesz a minta átlaga például)
 
 #### (Erősen) konzisztens becslés
 (Ez is egy tulajdonsága lehet a becsléseknek)
@@ -86,7 +83,7 @@ Kontextus: Maximum Likelihood becsléshez (ML-becslés): A maximum likelihood be
 !! MINÉL NAGYOBB MINTÁRA VESSZÜK A BECSLÉST ANNÁL JOBBAN KÖZELÍTI MEG A t PARAMÉTERT
 
 DEFINITION:
-6.1.2. Definition. A Tn sorozatot a t paraméter konzisztens (erősen konzisztens) becslésének nevezzük, ha Tn → t sztochasztikusan (majdnem biztosan)
+6.1.2. Definition. A T_n sorozatot a t paraméter konzisztens (erősen konzisztens) becslésének nevezzük, ha Tn → t sztochasztikusan (majdnem biztosan)
 
 ![[Pasted image 20250526185005.png]]
 
@@ -121,34 +118,12 @@ Innentől az a célunk, hogy a minta átlag beleessen a sokasági átlag konfide
 
 ### Az u-próba
 Fazekas I: 120. oldal
-
+Az u-próba angolul: z-test
 [[11 - Hypotheses11.pdf]]
 
-Az U próba egy paraméter próba, amelyet statisztikai hipotézisekre használunk. Az u próba az egyik legegyszerűbb próba.
+A statisztikai hipotézisek vizsgálatára próbálat (teszteket) alkalmazunk. A legegyszerűbb próba az u-próba.
 
-A u-próba a várható értékre vonatkozó hipotézis vizsgálati módszer.
 
-Azt vizsgálja, hogy egy mintabeli átlag szignifikánsan eltér-e a populációs (másnéven sokasági) átlagtól.
-
-Az u-próba során úgy vesszük, hogy a vizsgált MINTA egy normál eloszlásból származik.
-=> akkor tudjuk alkalmazni, ha a várhatóérték nem ismert, de a szórásnégyzet, vagyis a varianciája a sokaságnak ismert.
-
-A próba statisztika a próba során a következő:
-TODO
-
-Az u-próba során meghatározunk egy nullhipotést. (m_0 a sokasági átlag)
-$$
-H_0 = m = m_0
-$$
-És ezzel szemben meghatározzuk az alternatív hipotézist (ellenhipotézist):
-$$
-H_1 = m \neq m_0
-$$
-Ha az
-$$
-H_0
-$$
-fennáll, akkor u ()
 
 ![[Pasted image 20250526185120.png]]
 ![[Pasted image 20250526185124.png]]
@@ -182,7 +157,9 @@ CIA hármas + AA: (**BSR**)
 - **Availability (Rendelkezésre állás)**:  Biztosítja, hogy a szolgáltatás az arra jogosultak számára a szükséges időben és időtartamra használható
 
 - **Accountability (Nyomonkövethetőség)**: Az a tulajdonság, hogy egy entitás által végrehajtott tevékenység visszakövethető legyen az entitáshoz. A tevékenységek ellenőrzés céljára rögzítésre kerülnek azért, hogy visszakövethetőek legyenek, bizonyíték álljon rendelkezésre. Ez a tulajdonság lehetővé teszi a letagadhatatlanságot (non-repudiation), a behatolások (intrusion) detektálását, megelőzését.
-- **Assurance (Biztosíték / garancia)**:  A bizalom abban, hogy a négy másik biztonsági célt (bizalmasság, sértetlenség, rendelkezésre állás, nyomonkövethet®ség) a biztonsági alrendszer megfelelően ellátja/eléri
+- **Assurance (Biztosíték / garancia)**: A bizalom abban, hogy a négy másik biztonsági célt (bizalmasság, sértetlenség, rendelkezésre állás, nyomonkövethetőség) a biztonsági alrendszer megfelelően ellátja/eléri
+	- megj: a többi biztonsági cél inkább csak célok (másnéven elvárások), de a garancia annak a bizonyítéka, hogy ezek az elvárások ténylegesen teljesülnek is.
+
 
 - **Hitelesség (Authenticity)**: Valaminek az a forrása, ami megvan jelölve és a tartalma az eredeti
 - (megj: a következő kettő mechanizmust használhatjuk fel a hitelesség megteremtéséhez:)
@@ -208,7 +185,7 @@ Naivan: ha kikerül a jelszó és azzal valaki betud lépni akkor a rendszer leh
 
 4, **A rendelkezésre állás (availability) és a nyomonkövethetőség (accountability) függ sértetlenségtől (integrity)**, mivel ha a rendszer sértetlensége sérült, akkor a rendszer rendelkezésre állását és nyomonkövethetőségét biztosító mechanizmusok is sérülhettek 
 
-(megj: továbbá minden függ az assurance-től (de szerintem ez benne van az assurance fogalmában is)
+5, Minden függ az assurance-től (vagyis a garanciától).
 
 ### Fizikai védelem
 [[ibiza_fizikai_védelem.pdf]]
@@ -421,9 +398,13 @@ Kategóriái:
 	- Ezt a hátsóajtót lehet, hogy csak fejlesztők hagyták benne tesztelés miatt, de "nem megfelelően lett kezelve"...
 - Gyökércsomag (Rootkit): egy programcsomag, mely installálása után fedett hozzáférést biztosít, tart fent a már fertőzött géphez adminisztrátori (ROOT) jogosultsággal. => hátsóajtó hozzáférést biztosítanak trójaiak számára (?). Az operációs rendszer valamennyi funkciójához és szolgáltatásához hozzáférést ad. A támadónak adminisztrátori jogosultsága van, vagyis teljes kontrollja van a rendszer felett. Felrakhat, módosíthat programokat. Fájlokat processzeket monitorozhat. ==> A gyökércsomag elrejti ezeket a mechanizmusokat.
 
-A gyökércsomag jellemzői:
-- perzisztens: a gyökércsomag perzisztens helyen (pl registry) tárol kódot és a kódot a felhasználó részvétele nélkül futtatja le.
-- memória alapú: nincs perzisztens kód, tehát újraindítást nem éli túl. Mivel csak a memóriában van, nehezebb detektálni.
+
+
+A gyökércsomagokat összehasonlíthatjuk az alapján, hogy perzisztensek-e:
+- PERZISZTENS: a gyökércsomag perzisztens helyen (pl registry) tárol kódot és a kódot a felhasználó részvétele nélkül futtatja le.
+- MEMÓRIA ALAPÚ: nincs perzisztens kód, tehát újraindítást nem éli túl. Mivel csak a memóriában van, nehezebb detektálni.
+
+Továbbá a gyökércsomagokat úgy is összehasonlíthatjuk, hogy milyen módban futnak:
 - Felhasználói (user) módú: Felhasználói szinten működik az operációs rendszerben. Lehallgatja az API hívásokat és módosítja a kapott választ.
 - Kernel módú rootkit: A gyökércsomag úgy rejti el jelenlétét, hogy módosítja a kernelt.
 	- megj: a kernel az operációs rendszer magja, amely felelős a hardver erőforrásainak kezeléséért (beleértve a memóriát és a processzort is)
@@ -431,21 +412,35 @@ A gyökércsomag jellemzői:
 	- ==> erre adnak megoldást a kernel szintű rootkitek TODO
 
 
-megj: biztonsági intézkedések:
-- megelőzés: vagyis ne engedjük, hogy a kártékony program a rendszerünkbe jusson. Ha bejutott blokkoljuk, hogy ne tudjon kárt tenni.
+Biztonsági intézkedések kártékony programok ellen:
+- MEGELŐZÉS (PREVENCIÓ): vagyis ne engedjük, hogy a kártékony program a rendszerünkbe jusson. Ha bejutott blokkoljuk, hogy ne tudjon kárt tenni.
 - A pszicológiai támadás megakadályozható: felhasználói felvilágosítással és oktatással.
-többi 71. oldaltól
+
+
+többi biztonsági intézkedés 71. oldaltól
 
 ## Algoritmikus védelem eszközei:
-## titkosítás
+## Titkosítás
 [[titkosítások.pdf]]
 
 Általában a titkosításról:
 ![[Pasted image 20250528102118.png]]
-Itt a lényeg, hogy az üzenetet egy nyílt csatornán szeretnénk elküldni egy cél számára, de ahhoz, hogy ezt az üzenetet csak a célszemély tudja elolvasni ezért titkosítjuk...
+Itt a lényeg, hogy egy üzenetet Alice (a küldő) egy nyílt csatornán szeretné elküldni egy Bob számára, de ahhoz, hogy ezt az üzenetet csak Bob tudja elolvasni, és Eve (eavesdropper, vagyis lehallgató) ne tudja lehallgatni ezért titkosítjuk a nyílt üzenetet és titkosított üzenetként juttatjuk el az üzenet (Bob)
 
 ### Szimmetrikus titkosítás
 A titkosító és a visszafejtő kulcsok, **megegyeznek** vagy a **visszafejtő a titkosítóból könnyen kiszámítható**, polinomiális időn belül.
+
+
+Megj: egy algoritmus akkor fut polinomiális időn belül, ha n bemenetre a futási idő legfeljebb:
+$$
+O(n^k)
+$$
+ahol
+$$
+k\in \mathbb{N}
+$$
+Magyarul: létezik rá hatékony algoritmus, amely a bement méretének valamilyen hatványával arányos idő alatt megoldja a problémát. 
+
 ![[Pasted image 20250528102243.png]]
 ![[Pasted image 20250528102511.png]]
 ![[Pasted image 20250528102528.png]]
@@ -457,9 +452,13 @@ A titkosító és a visszafejtő kulcsok, **megegyeznek** vagy a **visszafejtő 
 
 Asszimmetrikus és szimmetrikus titkosítási sémák összehasonlítása:
 ![[Pasted image 20250528102451.png]]
+
+Itt esetleg meglehetne jegyezni, hogy a kulcsok kezelése:
+- Szimmetrikus sémáknál: KULCSCSERE ALGORITMUSSAL megy (pl Diffie-Hellmann-kulcscsere) 
+- Aszimmetrikus sémáknál: Nyilvános Kulcsú Infrastruktúra használával (PKI: public key infrastructure) 
+
 ## Digitális aláírás
 [[ibiza_hash_aláírás.pdf]]
-
 A digitális aláírás használatával képesek vagyunk például egy dokumentum hitelességét és letagadhatatlanságát biztosítani.
 ![[Pasted image 20250528105358.png]]
 ![[Pasted image 20250528112516.png]]
@@ -595,21 +594,19 @@ $$
 Dec _{SK} = c ^ d \space (mod \space n)
 $$
 
-## Digitális aláírás RSA-val:
-$$
-Sign _{PK} (m) = m ^ d \space (mod \space n) = S
-$$
-#### Digitális aláírás ellenőrzése RSA-val:s
-$$
-Ver _{SK} = S ^ e \space (mod \space n) 
-$$
--> ez akkor lesz igaz ha:
-$$
-S^e \equiv m \space (mod \space n)
-$$
-egyébként hamis
-
 -> **RSA titkosítási séma által használt algoritmusok:**
 ![[Pasted image 20250527224847.png]]
 ![[Pasted image 20250527224906.png]]
 A visszafejtő kulcs (SK) kiszámítása a titkosító kulcs (PK) ismeretében nehéz -> prímfaktorizáció
+
+##### Digitális aláírás RSA-val:
+![[Pasted image 20250601133526.png]]
+Vagyis az aláírást úgy végezzük, hogy az aláírandó üzenetet d-edikre emelkül mod n => ez megadja az s-et
+
+Az aláírás ellenőrzését az adott üzenethez pedig úgy végezzük, hogy az aláírást (s-et) e-edikre emeljük és megvizsgáljuk, hogy ez kongruense m-el (az aláírt üzenettel) mod n
+
+
+
+Megj: kongruencia: 
+![[Pasted image 20250601134946.png]]
+Két szám akkor kongruensek ugyanaz a module szerint, ha a számokat elosztva a modulóval ugyanaz a maradékuk.

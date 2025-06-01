@@ -7,6 +7,34 @@ görög ábécé:
 
 μ: mű -> várható érték statisztika
 
+omega:
+$$
+\omega
+$$
+$$
+\Omega
+$$
+
+fí (kicsi ?):
+$$
+\phi
+$$
+nagy gamma
+$$
+\Gamma
+$$
+
+
+théta:
+$$
+\theta
+$$
+vartheta:
+$$
+\vartheta
+$$
+
+
 ## EGYÉRTELMŰSÍTŐ (mástól kidolgozottakból melyik a jobb):
 ### MATEK
 1A [[1. Matek Tétel - Statisztika, Adatszerkezetek.pdf]]

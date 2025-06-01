@@ -8,30 +8,95 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3412b8c305bcbc78",
+            "id": "f6cc40e747b10701",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "kidolgozasok/Informatika ismeretek/mas/Info_1.pdf"
+                "file": "z tananyagok paste/alkstat/Fazekas István - Alkalmazott Statisztika.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Info_1"
+              "title": "Fazekas István - Alkalmazott Statisztika"
             }
           },
           {
-            "id": "a0ff13b2a67e644d",
+            "id": "0a8b627120ac02e1",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf"
+                "file": "kidolgozasok/matek + számtud/mas/Matek_8.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "8. Matek tétel - Statisztika, Ibiza"
+              "title": "Matek_8"
+            }
+          },
+          {
+            "id": "ec786d87cce42d31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8 alkstat (3) + ibiza"
+            }
+          },
+          {
+            "id": "22e9a7c68a9a60ee",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "z tananyagok paste/alkstat/11 - Hypotheses11.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "11 - Hypotheses11"
+            }
+          },
+          {
+            "id": "d70229a08ad42918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. alkstat (2) + adatszerk (2)"
+            }
+          },
+          {
+            "id": "f1ff059be8ba06c0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "z tananyagok paste/MESTINT/combined_RL.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "combined_RL"
+            }
+          },
+          {
+            "id": "de5e2654447b4183",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "5. Matek tétel - Dimat, Mestint"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -173,27 +238,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3412b8c305bcbc78",
+  "active": "de5e2654447b4183",
   "lastOpenFiles": [
-    "kidolgozasok/matek + számtud/mas/Matek_4.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/Info_1.pdf",
-    "kidolgozasok/Informatika ismeretek/2. prog1.md",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
-    "kidolgozasok/matek + számtud/mas/8. Matek tétel - Statisztika, Ibiza.pdf",
-    "kidolgozasok/matek + számtud/mas/4. Matek tétel - Matviz, Mestint.pdf",
-    "kidolgozasok/Informatika ismeretek/mas/4. Infó tétel - Oprendszerek.pdf",
-    "z tananyagok paste/alkstat/Fazekas István - Alkalmazott Statisztika.pdf",
-    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "z tananyagok paste/(Global Edition) Stuart J. Russell, Peter Norvig - Artificial Intelligence_ A Modern Approach, 3rd Edition-Pearson Education (2016).pdf",
+    "z tananyagok paste/MESTINT/combined_RL.pdf",
+    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "kidolgozasok/ZV-10-4.pdf",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
-    "kidolgozasok/Informatika ismeretek/mas/8. Infó tétel - Hálózatok.pdf",
+    "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
+    "kidolgozasok/matek + számtud/mas/7. Matek tétel - AlkMat, Fonya.pdf",
+    "kidolgozasok/matek + számtud/mas/4. Matek tétel - Matviz, Mestint.pdf",
     "z tananyagok paste/alkstat/11 - Hypotheses11.pdf",
-    "z tananyagok paste/IBIZA/ibiza_ügyviteli_védelem.pdf",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "kidolgozasok/matek + számtud/mas/Matek_8.pdf",
+    "z tananyagok paste/alkstat/Fazekas István - Alkalmazott Statisztika.pdf",
+    "README.md.md",
+    "z tananyagok paste/IBIZA/rsa.pdf",
+    "kidolgozasok/Informatika ismeretek/mas/Info_8.pdf",
+    "Pasted image 20250601134946.png",
+    "Pasted image 20250601133526.png",
+    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "kidolgozasok/Informatika ismeretek/1. adatb.md",
+    "kidolgozasok/Informatika ismeretek/2. prog1.md",
+    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
     "jó egység teszt.md",
     "Pasted image 20250528173806.png",
     "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
-    "kidolgozasok/Informatika ismeretek/1. adatb.md",
     "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "zzz pasted images/Pasted image 20250530215930.png",
     "zzz pasted images/Pasted image 20250530141053.png",
@@ -202,14 +272,10 @@
     "zzz pasted images/Pasted image 20250530163534.png",
     "zzz pasted images/Pasted image 20250530144221.png",
     "zzz pasted images/Pasted image 20250530143808.png",
-    "zzz pasted images/Pasted image 20250530141144.png",
-    "zzz pasted images/Pasted image 20250530073218.png",
     "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
-    "kidolgozasok/Informatika ismeretek/8. hálózat.md",
     "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
-    "README.md.md",
     "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
     "extras/virusok extra.md",
     "kidolgozasok/Informatika ismeretek/3. OOP.md",
