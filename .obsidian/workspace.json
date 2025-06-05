@@ -8,7 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b880f2375b971568",
+            "id": "97316d4c012c300a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. adatszerk (3) + fonya (1)"
+            }
+          },
+          {
+            "id": "2c13abe4a1b7b878",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README.md"
+            }
+          },
+          {
+            "id": "3609f53fcd4c0f2e",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -20,78 +48,33 @@
             }
           },
           {
-            "id": "e1a436e6931f0d49",
+            "id": "6126939bd6a0e280",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "PTI BSc tételsor_magyar_2021.pdf"
+                "file": "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "PTI BSc tételsor_magyar_2021"
+              "title": "3. Matek tétel - Kalkulus - Alkmat, Logika"
             }
           },
           {
-            "id": "76640cc967bc350c",
+            "id": "da47aaf34fc8cfd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
+                "file": "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. diszkmat (1) + mestint (2)"
-            }
-          },
-          {
-            "id": "600edd3b401aed30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. szoftverfejlesztés"
+              "title": "3. kalkulus, alkmat + logika"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "b54595624deb06b9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "738afa6844fe03a6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "kidolgozasok/Informatika ismeretek/mas/! Info_5 SWE.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "! Info_5 SWE"
-            }
-          },
-          {
-            "id": "ae14277c8b63ac1d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "kidolgozasok/Informatika ismeretek/mas/5. Infó tétel - Verziókezelés, OOP.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "5. Infó tétel - Verziókezelés, OOP"
-            }
-          }
-        ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -148,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 235.5
   },
   "right": {
     "id": "f9353f01ba49ceb0",
@@ -234,52 +216,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "600edd3b401aed30",
+  "active": "da47aaf34fc8cfd5",
   "lastOpenFiles": [
-    "kidolgozasok/Informatika ismeretek/mas/5. Infó tétel - Verziókezelés, OOP.pdf",
+    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
+    "PTI BSc tételsor_magyar_2021.pdf",
+    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
+    "README.md.md",
+    "z tananyagok paste/LOGIKA/eloadas04-2022.pdf",
+    "kidolgozasok/matek + számtud/mas/Matek_3.pdf",
+    "z tananyagok paste/KALKULUS/Fuggveny_hatarertek.pdf",
+    "kidolgozasok/ZV-10-4.pdf",
+    "z tananyagok paste/MATVIZ/Fuggvenyvizsgalat.pdf",
+    "z tananyagok paste/KALKULUS/Teljes_fuggvenyvizsgalat.pdf",
+    "kidolgozasok/matek + számtud/mas/Matek_6.pdf",
+    "kidolgozasok/matek + számtud/mas/6. Matek tétel - Gráfok(-), Fonya.pdf",
+    "kidolgozasok/matek + számtud/mas/7. Matek tétel - AlkMat, Fonya.pdf",
+    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
+    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
+    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
+    "Pasted image 20250604174945.png",
+    "prog2 extra 3.md",
+    "példa program modellalapú ágensre.md",
+    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
     "kidolgozasok/Informatika ismeretek/5. szoftverfejlesztés.md",
+    "kidolgozasok/Informatika ismeretek/1. adatb.md",
+    "kidolgozasok/Informatika ismeretek/2. prog1.md",
+    "kidolgozasok/Informatika ismeretek/3. OOP.md",
+    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
+    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
     "Pasted image 20250603104950.png",
     "Pasted image 20250603104939.png",
     "Pasted image 20250603104720.png",
     "Pasted image 20250603102218.png",
-    "kidolgozasok/Informatika ismeretek/mas/! Info_5 SWE.pdf",
-    "kidolgozasok/matek + számtud/5. diszkmat (1) + mestint (2).md",
-    "PTI BSc tételsor_magyar_2021.pdf",
-    "z tananyagok paste/MESTINT/combined_RL.pdf",
-    "z tananyagok paste/IBIZA/rsa.pdf",
-    "kidolgozasok/matek + számtud/mas/5. Matek tétel - Dimat, Mestint.pdf",
-    "kidolgozasok/matek + számtud/mas/Matek_3.pdf",
-    "kidolgozasok/matek + számtud/3. kalkulus, alkmat + logika.md",
     "zzz pasted images/Pasted image 20250602115138.png",
     "példa program egyszerű reflexszerű ágensre.md",
-    "README.md.md",
-    "példa program modellalapú ágensre.md",
-    "kidolgozasok/matek + számtud/mas/3. Matek tétel - Kalkulus - Alkmat, Logika.pdf",
-    "z tananyagok paste/ALKMAT/06_LKNGYAK.pdf",
     "zzz pasted images/Pasted image 20250602115126.png",
     "zzz pasted images/Pasted image 20250602115112.png",
     "zzz pasted images/Pasted image 20250602115100.png",
     "zzz pasted images/Pasted image 20250602115038.png",
-    "zzz pasted images/Pasted image 20250602115027.png",
-    "z tananyagok paste/alkstat/Fazekas István - Alkalmazott Statisztika.pdf",
-    "kidolgozasok/Informatika ismeretek/4. op rendszerek.md",
-    "kidolgozasok/matek + számtud/7. diszkmat (2) + fonya (2).md",
     "z tananyagok paste/(webfejl)/webfejlesztes_2024 2/spring-rest-hello-world/README.md",
-    "kidolgozasok/matek + számtud/8 alkstat (3) + ibiza.md",
     "kidolgozasok/matek + számtud/2. alkstat (2) + adatszerk (2).md",
-    "kidolgozasok/matek + számtud/1. alkstat (1) + adatszerk (1).md",
     "kidolgozasok/Informatika ismeretek/8. hálózat.md",
-    "kidolgozasok/Informatika ismeretek/1. adatb.md",
-    "kidolgozasok/Informatika ismeretek/2. prog1.md",
     "jó egység teszt.md",
-    "kidolgozasok/matek + számtud/6. adatszerk (3) + fonya (1).md",
     "kidolgozasok/matek + számtud/4. matviz + mestint (1).md",
     "kidolgozasok/Informatika ismeretek/6. módszertanok.md",
     "extras/virusok extra.md",
-    "kidolgozasok/Informatika ismeretek/3. OOP.md",
     "kidolgozasok/Informatika ismeretek/7.  webtech.md",
     "logika kontext.md",
-    "jegyzet 2.md",
-    "prog2 extra 3.md"
+    "jegyzet 2.md"
   ]
 }
